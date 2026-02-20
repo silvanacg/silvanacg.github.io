@@ -3,10 +3,17 @@ layout: default
 title: Home
 ---
 
-# Hi, I'm <your name>
+# Hi, I'm Silvana 👋
 
-Welcome to my site.
+Welcome to my personal website!
 
-- [About](/about)
-- [Projects](/projects)
-- [Contact](/contact)
+I'm a student interested in data, technology, and problem solving.
+
+## What you'll find here
+- My projects
+- My background
+- Ways to contact me
+
+[About me](/about/)
+[Projects](/projects/)
+[Contact](/contact/)
