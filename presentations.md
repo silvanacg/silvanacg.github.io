@@ -9,13 +9,13 @@ author_profile: true
 
 **Castillo, S., Jones, C., & Carvalho, L. (2025).**  
 *Storm Structure Properties and Reflectivity Patterns in Post-Fire Debris Flow-Triggering Events Using Radar Composites.*  
-AGU Fall Meeting 2025, New Orleans, Louisiana, USA — Dec 15–19, 2025.
+AGU Fall Meeting 2025, New Orleans, Louisiana, USA — Dec 15–19, 2025. [Abstract and Slides](https://essopenarchive.org/doi/full/10.22541/essoar.176617131.18313921) 
 
 ---
 
 **Castillo, S., & Jones, C. (2022).**  
 *The generation of landslides after wildfire: A case study of 286 occurrences after a rainstorm in January 2019 in the San Gabriel Mountains, Southern California.*  
-AGU Fall Meeting 2022, Chicago, Illinois, USA — Dec 12–16, 2022.
+AGU Fall Meeting 2022, Chicago, Illinois, USA — Dec 12–16, 2022.[Abstract](https://ui.adsabs.harvard.edu/abs/2022AGUFMNH15B..06C/abstract)
 
 ---
 
@@ -30,7 +30,7 @@ XIII International Symposium on Landslides, Cartagena, Colombia — Feb 22–26,
 
 **Castillo, S., & Jones, C. (2024).**  
 *Meteorological conditions associated with post-fire debris flows in California.*  
-Establishing Directions in Postfire Debris-Flow Science Conference, South Lake Tahoe, California, USA — May 20–22, 2024.
+Establishing Directions in Postfire Debris-Flow Science Conference, South Lake Tahoe, California, USA — May 20–22, 2024. 
 
 ---
 
