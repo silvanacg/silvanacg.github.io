@@ -15,7 +15,7 @@ Collaborative research developing a Random Forest model combining atmospheric co
 
 ### Post-Fire Debris Flows Under a Changing Climate
 Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
-[Read more →](/projects/future_hazard/)
+[Read more →](/projects/future-hazard/)
 
 ### Climate Change Impacts on Dairy Production
 Modeling heat stress effects on milk production and economic losses in Colombia.  
