@@ -39,4 +39,5 @@ Establishing Directions in Postfire Debris-Flow Science Conference, South Lake T
 
 **Castillo, S., & Jones, C. (2023).**  
 *Rainfall conditions of post-fire debris flows between 2013–2023 across ecoregions in California.*  
-AGU Fall Meeting 2023, San Francisco, California, USA — Dec 11–15, 2023. [Poster] "/assets/AGU2023_Posterppt1.pdf"
+AGU Fall Meeting 2023, San Francisco, California, USA — Dec 11–15, 2023. 
+[Poster] <a class="btn btn-primary" href="/assets/AGU2023_Posterppt1.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
