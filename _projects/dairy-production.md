@@ -9,14 +9,14 @@ Agricultural productivity in tropical regions is highly sensitive to heat stress
 
 ---
 
-#### Data
+## Data
 - CORDEX regional climate projections (temperature and relative humidity; historical 1970–2006, future 2030–2100)
 - National agricultural census livestock inventory (DANE)
 - Historical milk price records
 
 ---
 
-#### Methods
+## Methods
 To quantify heat stress on dairy cattle, I calculated the **Temperature–Humidity Index (THI)** using NOAA (1976):
 
 THI = (1.8 × T + 32) − (0.55 − 0.55 × RH) × (1.8 × T − 26)
@@ -38,7 +38,7 @@ Economic losses were then calculated using projected milk production reductions 
 
 ---
 
-#### Results
+## Results
 - Future climate scenarios show widespread increases in heat stress conditions
 - Significant reductions in daily milk production across warm regions
 - Substantial projected economic losses to the dairy sector
@@ -50,6 +50,6 @@ Economic losses were then calculated using projected milk production reductions 
   </div>
 
 
-#### References
+## References
 
 St-Pierre, N. R., Cobanov, B., & Schnitkey, G. (2003). Economic Losses from Heat Stress by US Livestock Industries1. Journal of Dairy Science, 86, E52–E77. https://doi.org/10.3168/jds.S0022-0302(03)74040-5
