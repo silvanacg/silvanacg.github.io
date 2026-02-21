@@ -34,9 +34,6 @@ Under climate change conditions, does the occurence of wildfire conditions follo
 ### Earlier seasonal alignment
 Fire and rainfall seasons move closer together, reducing post-fire recovery time.
 
-### Transition from rare to common events
-Many regions shift from occasional compound events to recurring occurrences by late century.
-
 <div style="display:flex; gap:18px; flex-wrap:wrap; justify-content:center; margin:20px 0;">
 
   <div style="text-align:center; max-width:420px;">
@@ -45,6 +42,9 @@ Many regions shift from occasional compound events to recurring occurrences by l
       Seasonal alignment of fire and rainfall (CanESM2 model)
     </p>
   </div>
+  
+### Transition from rare to common events
+Many regions shift from occasional compound events to recurring occurrences by late century.
 
   <div style="text-align:center; max-width:420px;">
     <img src="/assets/frequency.png" style="width:100%; border-radius:12px;">
