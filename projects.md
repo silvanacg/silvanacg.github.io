@@ -4,8 +4,8 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
-### Storm Structure and Debris-Flow Rainfall
-Collaborative research analyzing radar-based precipitation structure associated with post-fire debris flows.  
+### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flos
+Collaborative research analyzing structure of precipitation systems and reflectivity in burned areas during storms producing post-fire debris flows 
 (With coauthors — manuscript under review)  
 [Read more →](/projects/storm-structure/)
 
