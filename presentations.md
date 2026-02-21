@@ -10,7 +10,7 @@ author_profile: true
 **Castillo, S., Jones, C., & Carvalho, L. (2025).**  
 *Storm Structure Properties and Reflectivity Patterns in Post-Fire Debris Flow-Triggering Events Using Radar Composites.*  
 AGU Fall Meeting 2025, New Orleans, Louisiana, USA — Dec 15–19, 2025. 
-[Abstract and Slides](https://essopenarchive.org/doi/full/10.22541/essoar.176617131.18313921) 
+[Abstract](https://essopenarchive.org/doi/full/10.22541/essoar.176617131.18313921) 
 
 ---
 
