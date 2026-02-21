@@ -1,6 +1,6 @@
 ---
 title: "Talks & Presentations"
-permalink: /talks/
+permalink: /presentations/
 layout: single
 author_profile: true
 ---
