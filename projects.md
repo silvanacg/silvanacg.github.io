@@ -9,6 +9,10 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 (With coauthors — manuscript under review)  
 [Read more →](/projects/storm-structure/)
 
+### Predicting Debris Flows with Machine Learning
+Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
+[Read more →](/projects/rf-debrisflow/)
+
 ### Climate Change Impacts on Dairy Production
 Modeling heat stress effects on milk production and economic losses in Colombia.  
 [Read more →](/projects/dairy-production/)
