@@ -1,3 +1,19 @@
-theme: jekyll-theme-cayman
-title: Silvana Castillo
+title: Silvana Castillo Guerra
 description: Geospatial Data Analysis | Climate | Landslides
+url: "https://silvanacg.github.io"
+baseurl: ""
+
+remote_theme: "mmistakes/minimal-mistakes"
+
+plugins:
+  - jekyll-include-cache
+
+# Pick a skin (you can change later)
+minimal_mistakes_skin: "default"
+
+# Tell the theme to use a top nav
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
