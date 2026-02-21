@@ -15,7 +15,7 @@ I studied Geology at EAFIT University in Colombia, where I became fascinated by 
 
 <div style="float:left; width:38%; margin-right:18px; margin-top:10px;">
   <img src="/assets/IMG_2473.jpg" style="border-radius:12px;">
-  <p style="font-size:0.85em; text-align:center;">Field observations after a storm event</p>
+  <p style="font-size:0.85em; text-align:center;"> Radiosonde launching in the Santa Ynez Valley</p>
 </div>
 
 Now, as a Ph.D. candidate in Geography at UC Santa Barbara specializing in Climate Science and Climate Change, my research focuses on post-fire debris flows in California and the rainfall conditions that trigger them. I work with datasets ranging from rain gauges and radar to reanalysis and climate projections, generating insights that support hazard monitoring and early warning in a changing climate.
