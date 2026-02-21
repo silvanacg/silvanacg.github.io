@@ -4,10 +4,10 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
-[### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flows](/projects/storm-structure/)
+### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flows
 Collaborative research analyzing structure of precipitation systems and reflectivity in burned areas during storms producing post-fire debris flows 
 (With coauthors — manuscript under review)  
-[Read more →]
+[Read more →](/projects/storm-structure/)
 
 ### Predicting Debris Flows with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
