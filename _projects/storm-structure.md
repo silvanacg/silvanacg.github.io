@@ -31,9 +31,9 @@ The method tracks storm evolution through time and extracts structural propertie
 - reflectivity distribution within burn scars
 
 <div style="text-align:center; margin:20px 0;">
-  <img src="/assets/storms/workflow.png" style="max-width:700px; border-radius:12px;">
+  <img src="/assets/Fig2.png" style="max-width:700px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
-    Radar-based tracking of precipitation systems intersecting wildfire burn areas
+    Workflow for tracking algorithm
   </p>
 </div>
 
@@ -49,9 +49,9 @@ The method tracks storm evolution through time and extracts structural propertie
 Maximum radar reflectivity over burn scars aligned more consistently with peak short-duration rainfall than traditional reflectivity-threshold methods.
 
 <div style="text-align:center; margin:20px 0;">
-  <img src="/assets/images/projects/storms/results.png" style="max-width:700px; border-radius:12px;">
+  <img src="/assets/Abstract_Image.png" style="max-width:700px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
-    Example precipitation system and reflectivity distribution during a debris-flow event
+    Contrasting precipitation systems and reflectivity during debris-flow events
   </p>
 </div>
 
