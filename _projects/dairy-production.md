@@ -48,5 +48,3 @@ Economic losses were then calculated using projected milk production reductions 
 #### References
 
 St-Pierre, N. R., Cobanov, B., & Schnitkey, G. (2003). Economic Losses from Heat Stress by US Livestock Industries1. Journal of Dairy Science, 86, E52–E77. https://doi.org/10.3168/jds.S0022-0302(03)74040-5
-<img width="1010" height="24" alt="image" src="https://github.com/user-attachments/assets/3b33ab64-7d9c-41c8-9ad4-8f0cffb8ce64" />
-
