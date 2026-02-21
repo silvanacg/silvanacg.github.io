@@ -1,5 +1,5 @@
 ---
-title: "Climate Change Impacts on Dairy Production in Colombia (in preparation)"
+title: ""
 layout: single
 author_profile: true
 ---
