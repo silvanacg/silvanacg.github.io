@@ -51,6 +51,11 @@ Moisture transport, low-level winds, and radar reflectivity were consistently th
 ### Terrain alone is insufficient
 Traditional susceptibility variables (slope, burn severity) provided weaker predictive skill when used without atmospheric context.
 
+<div style="text-align:center; margin:20px 0;">
+  <img src="/assets/modelroc_import copy.png" style="max-width:700px; border-radius:12px;">
+  <p style="font-size:0.9em; opacity:0.75;">
+    Importance of features included in the model
+
 ### Predictive performance
 The model achieved strong discrimination between events and non-events (AUC ≈ 0.93).
 
