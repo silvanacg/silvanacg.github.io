@@ -13,6 +13,10 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
 [Read more →](/projects/rf-debrisflow/)
 
+### Future Risk of Post-Fire Debris Flows
+Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
+[Read more →](/projects/future_hazard/)
+
 ### Climate Change Impacts on Dairy Production
 Modeling heat stress effects on milk production and economic losses in Colombia.  
 [Read more →](/projects/dairy-production/)
