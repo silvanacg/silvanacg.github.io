@@ -3,15 +3,12 @@ main:
     url: /about/
   - title: "Bio"
     url: /bio/
-  - title: "News"
-    url: /news/
   - title: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  - title: "Presentations"
+    url: /publications/
   - title: "Publications"
     url: /publications/
   - title: "Teaching"
     url: /teaching/
-  - title: "Talks"
-    url: /talks/
+
