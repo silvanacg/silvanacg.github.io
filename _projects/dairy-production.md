@@ -1,4 +1,4 @@
-### Climate Change Impacts on Dairy Production in Colombia
+### Climate Change Impacts on Dairy Production in Colombia (Project in preparation)
 
 Agricultural productivity in tropical regions is highly sensitive to heat stress in livestock. This project evaluated how projected climate warming may affect milk production and economic losses across Colombia.
 
@@ -25,7 +25,7 @@ where *D* represents the fraction of the day exceeding the heat-stress threshold
 Economic losses were then calculated using projected milk production reductions and regional milk prices.
 
 <div style="text-align:center; margin: 18px 0;">
-  <img src="/assets/images/projects/dairy/workflow.png" style="max-width:650px; border-radius:12px;">
+  <img src="/assets/load_cycle.png" style="max-width:650px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
     Workflow linking climate projections → heat stress → milk loss → economic impact
   </p>
@@ -38,16 +38,15 @@ Economic losses were then calculated using projected milk production reductions 
 - Significant reductions in daily milk production across warm regions
 - Substantial projected economic losses to the dairy sector
 
-<div style="display:flex; gap:16px; flex-wrap:wrap; justify-content:center; margin-top:12px;">
-  <div style="text-align:center;">
-    <img src="/assets/images/projects/dairy/results_map.png" style="max-width:420px; border-radius:12px;">
-    <p style="font-size:0.9em; opacity:0.75;">Projected spatial change in heat stress</p>
-  </div>
 
   <div style="text-align:center;">
-    <img src="/assets/images/projects/dairy/results_chart.png" style="max-width:420px; border-radius:12px;">
+    <img src="/assets/economic_loss.jpg" style="max-width:420px; border-radius:12px;">
     <p style="font-size:0.9em; opacity:0.75;">Projected production loss</p>
   </div>
 </div>
 
-*Project in preparation (Castillo et al., 2025).*
+#### References
+
+St-Pierre, N. R., Cobanov, B., & Schnitkey, G. (2003). Economic Losses from Heat Stress by US Livestock Industries1. Journal of Dairy Science, 86, E52–E77. https://doi.org/10.3168/jds.S0022-0302(03)74040-5
+<img width="1010" height="24" alt="image" src="https://github.com/user-attachments/assets/3b33ab64-7d9c-41c8-9ad4-8f0cffb8ce64" />
+
