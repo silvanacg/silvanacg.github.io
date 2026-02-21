@@ -32,7 +32,7 @@ Economic losses were then calculated using projected milk production reductions 
 <div style="text-align:center; margin: 18px 0;">
   <img src="/assets/load_cycle.png" style="max-width:650px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
-    Workflow linking climate projections → heat stress → milk loss → economic impact
+    THI cycle (St-Pierre et al., 2003)
   </p>
 </div>
 
@@ -45,10 +45,10 @@ Economic losses were then calculated using projected milk production reductions 
 
 
   <div style="text-align:center;">
-    <img src="/assets/economic_loss.jpg" style="max-width:420px; border-radius:12px;">
+    <img src="/assets/economic_loss.jpg" style="max-width:650px; border-radius:12px;">
     <p style="font-size:0.9em; opacity:0.75;">Projected production loss</p>
   </div>
-</div>
+
 
 #### References
 
