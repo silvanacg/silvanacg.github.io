@@ -58,7 +58,7 @@ The model achieved strong discrimination between events and non-events (AUC ≈ 
 Applying the model to a real debris-flow event produced more spatially nuanced hazard estimates than rainfall-threshold approaches.
 
 <div style="text-align:center; margin:20px 0;">
-  <img src="/assets/model_probability.png" style="max-width:700px; border-radius:12px;">
+  <img src="/assets/M1model_comparison.png" style="max-width:700px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
     Example debris-flow probability output compared to traditional threshold methods
   </p>
