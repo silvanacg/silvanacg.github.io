@@ -33,11 +33,11 @@ XIII International Symposium on Landslides, Cartagena, Colombia — Feb 22–26,
 **Castillo, S., & Jones, C. (2024).**  
 *Meteorological conditions associated with post-fire debris flows in California.*  
 Establishing Directions in Postfire Debris-Flow Science Conference, South Lake Tahoe, California, USA — May 20–22, 2024.
-[Poster] "/assets/Pfdf_conference_poster.pdf"
+[Poster](/assets/Pfdf_conference_poster.pdf)  
 
 ---
 
 **Castillo, S., & Jones, C. (2023).**  
 *Rainfall conditions of post-fire debris flows between 2013–2023 across ecoregions in California.*  
 AGU Fall Meeting 2023, San Francisco, California, USA — Dec 11–15, 2023. 
-[Poster] <a class="btn btn-primary" href="/assets/AGU2023_Posterppt1.pdf" target="_blank" rel="noopener">Poster (PDF)</a>
+[Poster](/assets/AGU2023_Posterppt1.pdf) 
