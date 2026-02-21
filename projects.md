@@ -9,7 +9,7 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 (With coauthors — manuscript under review)  
 [Read more →](/projects/storm-structure/)
 
-### Predicting Debris Flows with Machine Learning
+### Predicting Debris Flows with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
 [Read more →](/projects/rf-debrisflow/)
 
