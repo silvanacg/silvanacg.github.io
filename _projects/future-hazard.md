@@ -34,8 +34,6 @@ Under climate change conditions, does the occurence of wildfire conditions follo
 ### Earlier seasonal alignment
 Fire and rainfall seasons move closer together, reducing post-fire recovery time.
 
-<div style="display:flex; gap:18px; flex-wrap:wrap; justify-content:center; margin:20px 0;">
-
   <div style="text-align:center; max-width:600px;">
     <img src="/assets/seasonal_cycle.png" style="width:100%; border-radius:12px;">
     <p style="font-size:0.9em; opacity:0.75;">
