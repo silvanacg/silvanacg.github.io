@@ -44,13 +44,12 @@ Fire and rainfall seasons move closer together, reducing post-fire recovery time
 ### Transition from rare to common events
 Many regions shift from occasional compound events to recurring occurrences by late century.
 
-  <div style="text-align:center; max-width:420px;">
-    <img src="/assets/frequency.png" style="width:100%; border-radius:12px;">
-    <p style="font-size:0.9em; opacity:0.75;">
-      Projected increase in compound events (CanESM2 model)
-    </p>
-  </div>
-
+ <div style="text-align:center; max-width:600px; margin: 0 auto;">
+  <img src="/assets/frequency.png" style="width:100%; border-radius:12px;">
+  <p style="font-size:0.9em; opacity:0.75;">
+    Projected increase in compound events (CanESM2 model)
+  </p>
+ </div>
 
 ---
 ## References
