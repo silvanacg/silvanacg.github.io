@@ -3,7 +3,6 @@ title: "Climate Change Impacts on Dairy Production in Colombia (in preparation)"
 layout: single
 author_profile: true
 ---
-
 Agricultural productivity in tropical regions is highly sensitive to heat stress in livestock. This project evaluated how projected climate warming may affect milk production and economic losses across Colombia.
 
 ---
