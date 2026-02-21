@@ -1,10 +1,8 @@
 ---
-title: "About"
+title: "Hi, I'm Silvana 👋"
 layout: single
 permalink: /
 ---
-
-# Hi, I'm Silvana 👋
 
 Welcome to my personal website!
 
