@@ -1,0 +1,15 @@
+silvana:
+  name: "Silvana CG"
+  avatar: "/assets/images/profile.jpg"
+  bio: "Ph.D. Candidate in Geography studying hydroclimate hazards"
+  location: "United States"
+  links:
+    - label: "Resume"
+      icon: "fas fa-file"
+      url: "/assets/resume.pdf"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/silvanacg"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "#"
