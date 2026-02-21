@@ -15,3 +15,8 @@ I'm a student interested in data, technology, and problem solving.
 - My projects
 - My background
 - Ways to contact me
+
+## Links
+- [Resume](/assets/resume.pdf)
+- [GitHub](https://github.com/silvanacg)
+- [LinkedIn](#)
