@@ -13,7 +13,7 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
 [Read more →](/projects/rf-debrisflow/)
 
-### Future Risk of Post-Fire Debris Flows
+### Future Occurrence of Post-Fire Debris Flows
 Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
 [Read more →](/projects/future_hazard/)
 
