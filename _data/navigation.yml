@@ -1,0 +1,9 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "Bio"
+    url: /bio/
+  - title: "Projects"
+    url: /projects/
+  - title: "Presentations & publications"
+    url: /Presentations & publications/
