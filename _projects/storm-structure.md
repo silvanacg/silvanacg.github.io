@@ -21,7 +21,7 @@ This project investigates how structure of precipitation systems and reflectivit
 ---
 
 ## Method
-I adapted a spatial correlation tracking algorithm to identify and follow coherent precipitation systems intersecting burned areas.
+I adapted a spatial correlation tracking algorithm (MASCOTTE; Carvalho & Jones, 2001)  to identify and follow coherent precipitation systems intersecting burned areas.
 
 The method tracks storm evolution through time and extracts structural properties:
 
@@ -55,6 +55,8 @@ The method tracks storm evolution through time and extracts structural propertie
 ### Timing insight
 Maximum radar reflectivity over burn scars aligned more consistently with peak short-duration rainfall than traditional reflectivity-threshold methods.
 
+## References
 
+Carvalho, L. M. V., & Jones, C. (2001). A Satellite Method to Identify Structural Properties of Mesoscale Convective Systems Based on the Maximum Spatial Correlation Tracking Technique (MASCOTTE). Journal of Applied Meteorology, 40(10), 1683-1701. https://doi.org/10.1175/1520-0450(2001)040<1683:ASMTIS>2.0.CO;2
 
 ---
