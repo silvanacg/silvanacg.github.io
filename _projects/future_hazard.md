@@ -27,14 +27,6 @@ Under climate change conditions, does the occurence of wildfire conditions follo
 2. Modify NOAA 14- 1yr Return Interval Rainfall thresholds associated with debris-flow initiation to match rainfall projections 
 3. Evaluated how often rainfall follows wildfire conditions within 3-, 6-, and 12-month windows
 4. Compared historical vs future climate scenarios
-
-<div style="text-align:center; margin:20px 0;">
-  <img src="/assets/images/projects/future/seasonal_cycle.png" style="max-width:700px; border-radius:12px;">
-  <p style="font-size:0.9em; opacity:0.75;">
-    Seasonal overlap between extreme fire weather and rainfall capable of triggering debris flows
-  </p>
-</div>
-
 ---
 
 ## Key Findings (So far..)
@@ -50,14 +42,14 @@ Many regions shift from occasional compound events to recurring occurrences by l
   <div style="text-align:center; max-width:420px;">
     <img src="/assets/seasonal_cycle.png" style="width:100%; border-radius:12px;">
     <p style="font-size:0.9em; opacity:0.75;">
-      Projected increase in compound events
+      Seasonal alignment of fire and rainfall
     </p>
   </div>
 
   <div style="text-align:center; max-width:420px;">
     <img src="/assets/frequency.png" style="width:100%; border-radius:12px;">
     <p style="font-size:0.9em; opacity:0.75;">
-      Seasonal alignment of fire and rainfall
+      Projected increase in compound events
     </p>
   </div>
 
