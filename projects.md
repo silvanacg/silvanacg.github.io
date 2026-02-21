@@ -4,6 +4,10 @@ permalink: /projects/
 layout: single
 author_profile: true
 ---
+### Storm Structure and Debris-Flow Rainfall
+Collaborative research analyzing radar-based precipitation structure associated with post-fire debris flows.  
+(With coauthors — manuscript under review)  
+[Read more →](/projects/storm-structure/)
 
 ### Climate Change Impacts on Dairy Production
 Modeling heat stress effects on milk production and economic losses in Colombia.  
