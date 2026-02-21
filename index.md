@@ -1,6 +1,8 @@
+
 ---
-layout: default
-title: Home
+title: "About"
+layout: single
+permalink: /
 ---
 
 # Hi, I'm Silvana 👋
@@ -13,7 +15,3 @@ I'm a student interested in data, technology, and problem solving.
 - My projects
 - My background
 - Ways to contact me
-
-[About me](/about/)
-[Projects](/projects/)
-[Contact](/contact/)
