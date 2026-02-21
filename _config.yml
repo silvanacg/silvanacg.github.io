@@ -17,3 +17,7 @@ defaults:
       path: ""
     values:
       layout: single
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
