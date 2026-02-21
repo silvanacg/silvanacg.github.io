@@ -2,6 +2,8 @@
 title: "Hi, I'm Silvana 👋"
 layout: single
 permalink: /
+author_profile: true
+author: silvana
 ---
 
 Welcome to my personal website!
