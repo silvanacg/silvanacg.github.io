@@ -1,0 +1,71 @@
+/* Simple “portfolio” styling on top of the theme */
+
+.hero {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 16px 0 24px 0;
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 2px solid rgba(0,0,0,0.12);
+}
+
+.hero-text {
+  min-width: 240px;
+  flex: 1;
+}
+
+.actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid rgba(0,0,0,0.18);
+  font-weight: 600;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: rgba(0,0,0,0.08);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+  margin: 12px 0 24px 0;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.15);
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(255,255,255,0.55);
+}
+
+.card h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.meta {
+  font-size: 0.95em;
+  opacity: 0.85;
+  margin: 0 0 8px 0;
+}
