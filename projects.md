@@ -2,7 +2,7 @@
 title: "Projects"
 permalink: /projects/
 layout: single
-author_profile: true
+author_profile: true 
 ---
 ### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flows
 Collaborative research analyzing structure of precipitation systems and reflectivity in burned areas during storms producing post-fire debris flows 
