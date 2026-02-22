@@ -9,7 +9,7 @@ plugins:
   - jekyll-include-cache
 
 # Pick a skin (you can change later)
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"
 
 # Tell the theme to use a top nav
 defaults:
