@@ -1,8 +1,8 @@
 ---
-title: "Hi, I am Silvana 👋"
+title: ""
 layout: single
 permalink: /
-author_profile: true
+author_profile: false
 author: silvana
 ---
 
