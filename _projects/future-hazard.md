@@ -12,7 +12,7 @@ This project evaluates how climate change may alter that sequence by analyzing t
 ---
 
 ## Research Question
-Under climate change conditions, does the occurence of wildfire conditions followed by hazardous rainfall capable of generating debris flows increases?
+Under climate change conditions, does the occurence of wildfire conditions followed by hazardous rainfall capable of generating debris flows increase?
 
 ---
 
@@ -21,6 +21,7 @@ Under climate change conditions, does the occurence of wildfire conditions follo
 - Fire Weather Index (FWI) derived from temperature, humidity, wind, and precipitation
 - Short-duration rainfall simulations capturing debris-flow-triggering intensities
 - Mountain terrain mask in California
+  
 ---
 
 ## Method
@@ -28,6 +29,7 @@ Under climate change conditions, does the occurence of wildfire conditions follo
 2. Modify NOAA 14- 1yr Return Interval Rainfall thresholds associated with debris-flow initiation to match rainfall projections 
 3. Evaluated how often rainfall follows wildfire conditions within 3-, 6-, and 12-month windows
 4. Compared historical vs future climate scenarios
+   
 ---
 
 ## Key Findings (So far..)
