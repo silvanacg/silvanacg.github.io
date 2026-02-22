@@ -266,3 +266,44 @@ a:hover{
 .page__footer{
   border-top:1px solid rgba(0,0,0,.06);
 }
+
+/* ===== FIX: the “skinny text column” problem ===== */
+
+/* Ensure the main content isn't being squeezed */
+.page__content,
+.initial-content,
+.page__inner-wrap {
+  max-width: 1100px !important;
+  width: 100% !important;
+}
+
+/* Force the home layout to actually give space to the intro */
+.home-layout{
+  display: grid !important;
+  grid-template-columns: 300px minmax(650px, 1fr) !important;
+  align-items: start !important;
+  gap: 2.25rem !important;
+}
+
+/* Critical: allow the right column to expand instead of shrinking */
+.intro{
+  min-width: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+/* Remove any paragraph max-width that is making it skinny */
+.intro p{
+  max-width: none !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Mobile: stack */
+@media (max-width: 920px){
+  .home-layout{
+    grid-template-columns: 1fr !important;
+  }
+}
+
