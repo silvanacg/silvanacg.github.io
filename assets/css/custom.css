@@ -1,167 +1,100 @@
-/* ===== Bold but Academic Reset ===== */
-:root{
-  --accent: #6d28d9;
-  --text: #111827;
-  --muted: rgba(17,24,39,.72);
-  --border: rgba(17,24,39,.10);
-  --panel: rgba(255,255,255,.80);
-  --soft: rgba(17,24,39,.04);
-}
-
-html{ scroll-behavior: smooth; }
-body{
-  color: var(--text);
-  letter-spacing: -0.01em;
-}
-
-/* Make text readable (fixes “wide boring” look) */
-.page__content,
-.initial-content{
-  max-width: 980px;
-}
-
-/* ===== Homepage layout (your .home-layout) ===== */
-.home-layout{
+.photo-row {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 2rem;
-  align-items: start;
-  margin-top: 1.25rem;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin: 22px 0 28px 0;
 }
 
-@media (max-width: 980px){
-  .home-layout{ grid-template-columns: 1fr; }
-}
-
-/* ===== Sidebar profile card ===== */
-.profile{
-  position: sticky;
-  top: 1.25rem;
-  border: 1px solid var(--border);
+.photo-card {
+  background: white;
   border-radius: 18px;
-  padding: 1.25rem;
-  background: var(--panel);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 16px 40px rgba(0,0,0,.06);
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
 
-@media (max-width: 980px){
-  .profile{ position: relative; top: auto; }
+.photo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.12);
 }
 
-.profile-photo{
-  width: 120px;
-  height: 120px;
-  border-radius: 999px;
+.photo-card img {
+  width: 100%;
+  height: 220px;
   object-fit: cover;
-  border: 1px solid var(--border);
-  display: block;
-  margin-bottom: .9rem;
 }
 
-.profile h2{
-  margin: 0 0 .35rem 0;
-  font-size: 1.6rem;
-  line-height: 1.15;
+.photo-cap {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px 12px 12px;
+  opacity: 0.8;
 }
 
-.role{
-  margin: 0 0 .75rem 0;
-  color: var(--muted);
+/* ---------- Global polish ---------- */
+.page__content p { line-height: 1.75; font-size: 1.03rem; }
+.page__content h2 { margin-top: 2.2rem; }
+.page__content h3 { margin-top: 1.6rem; }
+.page__content hr { margin: 2rem 0; opacity: .25; }
+
+/* Softer site background */
+body { background: #faf9ff; }
+
+/* Make the main content feel like a card */
+.initial-content, .page__inner-wrap {
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+}
+.page__inner-wrap { padding: 12px 18px; }
+
+/* Links feel nicer */
+a { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* ---------- Cute “section cards” ---------- */
+.section-card {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 16px 16px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+  margin: 16px 0;
 }
 
-/* ===== Pills (Radar / ML / Climate Risk) ===== */
-.tagline{ display:none; } /* hide the old line; we’ll use pills instead */
-
-.pill-row{
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-  margin: .5rem 0 1rem;
+/* ---------- Buttons ---------- */
+.btnx {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(155,143,230,0.14);
+  font-weight: 650;
+  text-decoration: none !important;
+  margin-right: 10px;
 }
+.btnx:hover { transform: translateY(-1px); }
 
-.pill{
-  display: inline-flex;
-  padding: .33rem .62rem;
-  border-radius: 999px;
-  border: 1px solid var(--border);
-  background: var(--soft);
-  font-size: .92rem;
+/* ---------- Project cards grid ---------- */
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
 }
-
-/* ===== Buttons / links ===== */
-.links{
-  display: flex;
-  flex-wrap: wrap;
-  gap: .5rem;
-  margin: .75rem 0 0;
+.proj-card {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 14px 14px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
 }
+.proj-title { margin: 0 0 6px 0; font-size: 1.05rem; }
+.proj-meta { opacity: .75; font-size: .95rem; margin: 0 0 10px 0; }
 
-.links a{
-  text-decoration: none;
-  border: 1px solid var(--border);
-  padding: .45rem .65rem;
-  border-radius: 999px;
-  background: rgba(255,255,255,.85);
-  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
-  font-weight: 600;
-  font-size: .95rem;
-}
-
-.links a:hover{
-  transform: translateY(-1px);
-  border-color: rgba(109,40,217,.35);
-  box-shadow: 0 10px 25px rgba(0,0,0,.08);
-}
-
-.links a[href*="CV"]{
-  background: var(--accent);
-  color: white !important;
-  border-color: transparent;
-}
-
-/* ===== Main intro ===== */
-.intro{
-  padding-top: .25rem;
-  max-width: 720px;
-}
-
-.statement{
-  font-size: 1.35rem;
-  line-height: 1.25;
-  margin: 0 0 .9rem 0;
-}
-
-.intro p{
-  font-size: 1.03rem;
-  line-height: 1.65;
-  color: rgba(17,24,39,.90);
-}
-
-.quicklinks{
-  display: flex;
-  flex-wrap: wrap;
-  gap: .6rem;
-  align-items: center;
-  margin: 1.1rem 0 1.25rem;
-  padding: .75rem 1rem;
+/* Optional thumbnail */
+.proj-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
   border-radius: 14px;
-  border: 1px solid var(--border);
-  background: var(--soft);
+  margin-bottom: 10px;
 }
-
-.quicklinks a{
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.quicklinks a:hover{ text-decoration: underline; }
-
-/* ===== Optional: make headings feel designed ===== */
-.intro h2{
-  margin-top: 2rem;
-  letter-spacing: -0.02em;
-}
-
-/* ===== Make the site feel less “template” ===== */
-.page__title{ display:none; } /* hides empty title spacing if needed */
