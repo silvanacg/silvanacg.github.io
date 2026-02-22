@@ -1,6 +1,7 @@
 ---
 title: "Post-Fire Debris Flows Under a Changing Climate"
 layout: single
+classes: wide
 author_profile: true
 ---
 
