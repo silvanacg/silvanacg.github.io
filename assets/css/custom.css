@@ -1,133 +1,139 @@
-/* ===== Warm Academic Homepage (Balanced + Centered) ===== */
+---
+# Only the main Sass file needs front matter
+---
 
-:root{
-  --ink:#202124;
-  --muted:rgba(32,33,36,.68);
-  --line:rgba(32,33,36,.10);
-  --bg:#fbfbff;
-  --accent:#5b5bd6;
-  --accent2:#7a5cff;
-}
+$link-color: #6d28d9;
+$primary-color: #6d28d9;
 
-body{
-  background: var(--bg);
-  color: var(--ink);
-  font-size: 15px;
-}
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-/* Softer nav */
-.masthead{
-  background: rgba(255,255,255,.85) !important;
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--line);
-}
-
-.greedy-nav a{
-  font-weight: 500;
-  opacity: .82;
-}
-
-.greedy-nav a:hover{
-  opacity: 1;
-  color: var(--accent);
-}
-
-/* ===== Homepage Layout (THIS fixes the "too far right" look) ===== */
+/* Layout */
 .home-layout{
-  display:grid;
-  grid-template-columns: 320px 1fr;  /* stronger left column */
-  gap: 56px;                         /* smaller gap */
-  margin: 40px auto 0 auto;          /* center the block */
-  max-width: 1100px;                 /* keeps it balanced */
-  align-items:start;
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2rem;
+  align-items: start;
 }
 
-/* LEFT COLUMN */
+@media (max-width: 980px){
+  .home-layout{ grid-template-columns: 1fr; }
+  .profile{ position: relative; top: auto; }
+}
+
+/* Sidebar */
 .profile{
-  padding-top: 6px;
+  position: sticky;
+  top: 1.25rem;
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 18px;
+  padding: 1.25rem;
+  background: rgba(255,255,255,.72);
+  backdrop-filter: blur(6px);
 }
 
 .profile-photo{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  border-radius: 999px;
   object-fit: cover;
-  margin-bottom: 18px;
-  border: 1px solid var(--line);
+  border: 1px solid rgba(0,0,0,.12);
+  display: block;
+  margin-bottom: .85rem;
 }
 
 .profile h2{
-  font-size: 1.24rem;
-  font-weight: 650;
-  margin: 0 0 6px 0;
+  margin: 0 0 .35rem 0;
+  font-size: 1.55rem;
+  letter-spacing: -0.01em;
 }
 
 .role{
-  font-size: 0.92rem;
-  color: var(--muted);
-  margin: 0 0 10px 0;
-  line-height: 1.45;
+  margin: 0 0 .75rem 0;
+  opacity: .85;
 }
 
-.tagline{
-  font-size: 0.88rem;
-  color: var(--muted);
-  margin: 0 0 16px 0;
+/* Pills */
+.pill-row{ display:flex; flex-wrap:wrap; gap:.5rem; margin: .5rem 0 1rem; }
+.pill{
+  display:inline-flex;
+  padding: .33rem .6rem;
+  border-radius: 999px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: rgba(0,0,0,.03);
+  font-size: .92rem;
 }
 
-.links{
+/* Buttons row */
+.links{ display:flex; flex-wrap:wrap; gap:.5rem; margin: .75rem 0 1rem; }
+
+/* Mini facts */
+.profile-mini{
+  border-top: 1px solid rgba(0,0,0,.08);
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+.mini-row{ display:grid; grid-template-columns: 64px 1fr; gap:.75rem; margin-bottom: .6rem; }
+.mini-label{ font-weight: 700; opacity: .7; }
+.mini-value{ opacity: .88; }
+
+/* Section nav */
+.side-nav{
   display:flex;
-  flex-direction:column;
-  gap: 6px;
+  flex-wrap:wrap;
+  gap: .75rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,.08);
 }
+.side-nav a{ text-decoration:none; font-weight: 650; opacity: .9; }
+.side-nav a:hover{ text-decoration: underline; }
 
-.links a{
-  font-size: 0.88rem;
-  text-decoration:none;
-  color: var(--ink);
-  opacity: .78;
-}
-
-.links a:hover{
-  opacity: 1;
-  color: var(--accent);
-}
-
-/* RIGHT COLUMN */
+/* Main content */
+.intro{ padding-top: .25rem; }
 .statement{
-  font-size: 1.12rem;
-  font-weight: 520;
-  line-height: 1.65;
-  margin: 0 0 16px 0;
-}
-
-.intro p{
-  font-size: 0.96rem;
-  line-height: 1.8;
-  margin: 0 0 14px 0;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  margin-top: 0;
 }
 
 .quicklinks{
-  margin-top: 18px;
-  font-size: 0.92rem;
-  color: var(--muted);
+  display:flex;
+  flex-wrap:wrap;
+  gap:.6rem;
+  align-items:center;
+  margin: 1rem 0 1.25rem;
+  padding: .75rem 1rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0,0,0,.10);
+  background: rgba(0,0,0,.03);
 }
 
-.quicklinks a{
-  color: var(--accent);
-  text-decoration: none;
-  font-weight: 600;
+/* Cards */
+.section{
+  padding: 1.75rem 0;
+  border-top: 1px solid rgba(0,0,0,.08);
 }
 
-.quicklinks a:hover{
-  color: var(--accent2);
+.card-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
 }
 
-/* Responsive */
-@media (max-width: 900px){
-  .home-layout{
-    grid-template-columns: 1fr;
-    gap: 34px;
-    max-width: 680px;
-  }
+.card{
+  border: 1px solid rgba(0,0,0,.10);
+  border-radius: 16px;
+  padding: 1rem;
+  background: rgba(255,255,255,.72);
+  backdrop-filter: blur(6px);
+  transition: transform .15s ease, box-shadow .15s ease;
 }
+
+.card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.08);
+}
+
+.backtotop{ margin-top: 1rem; }
