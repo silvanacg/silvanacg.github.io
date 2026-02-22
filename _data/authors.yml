@@ -1,6 +1,7 @@
 silvana:
   name: "Silvana Castillo"
   avatar: "/assets/Silvana Castillo2.jpg"
+  bio: "Geospatial data | Climate | Natural hazards"
   links:
     - label: "CV"
       icon: "fas fa-file"
