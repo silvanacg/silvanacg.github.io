@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-## University of California, Santa Barbara  
+## University of California Santa Barbara  
 **Teaching Assistant — Department of Geography**
 
 Led discussion sections and short lectures, supported students with course concepts and technical tools (Python/Jupyter notebooks), graded assignments and exams, and held office hours.
@@ -19,7 +19,7 @@ Led discussion sections and short lectures, supported students with course conce
 
 ---
 
-## University of British Columbia  
+## The University of British Columbia  
 **Teaching Assistant — Department of Earth, Ocean and Atmospheric Sciences (EOAS)**
 
 Assisted students and instructors with course materials, graded assignments and exams, and held office hours.
