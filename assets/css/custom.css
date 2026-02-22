@@ -307,3 +307,9 @@ a:hover{
   }
 }
 
+/* Optional: justified text that doesn't look ugly */
+.intro p{
+  text-align: justify !important;
+  hyphens: auto;
+}
+
