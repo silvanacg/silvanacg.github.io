@@ -125,6 +125,19 @@ body{
   color: var(--accent2);
 }
 
+/* Make ONLY the homepage content area wider */
+.page__content .home-layout {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Also widen the inner wrap on wide layouts */
+.layout--single.wide .page__inner-wrap {
+  max-width: 1200px;
+}
+
+
 /* Responsive */
 @media (max-width: 900px){
   .home-layout{ grid-template-columns: 1fr; gap: 34px; }
