@@ -3,7 +3,6 @@ title: ""
 layout: single
 permalink: /
 author_profile: false
-author: silvana
 ---
 
 <div class="home-layout">
