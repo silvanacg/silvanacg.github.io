@@ -1,11 +1,11 @@
 ---
-title: "Hi, I am Silvana 👋"
+title: "Silvana Castillo Guerra"
 layout: single
 permalink: /
 author_profile: true
 author: silvana
 ---
-# Silvana Castillo Guerra
+Hi, I am Silvana 👋
 
 Welcome to my personal website!
 
