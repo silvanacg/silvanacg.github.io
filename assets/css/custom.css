@@ -1,52 +1,57 @@
-/* ===== Clean Editorial Layout ===== */
+/* ===== Refined Academic Layout ===== */
 
 body {
-  background: #fafafa;
+  background: #ffffff;
   color: #222;
-  font-weight: 400;
+  font-size: 15px;   /* smaller base font */
+}
+
+/* Make content area slightly wider */
+.page__inner-wrap {
+  max-width: 1100px;
 }
 
 /* Two-column grid */
 .home-layout {
   display: grid;
-  grid-template-columns: 280px 1fr;
-  gap: 90px;
-  margin-top: 60px;
+  grid-template-columns: 260px 1fr;
+  gap: 70px;
+  margin-top: 50px;
   align-items: start;
 }
 
 /* LEFT COLUMN */
 
 .profile-photo {
-  width: 160px;
-  height: 160px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .profile h2 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .role {
-  font-size: 0.95rem;
-  opacity: 0.65;
-  margin-bottom: 18px;
-  line-height: 1.5;
+  font-size: 0.9rem;
+  opacity: 0.6;
+  margin-bottom: 15px;
+  line-height: 1.4;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 4px;
 }
 
 .links a {
+  font-size: 0.85rem;
   text-decoration: none;
-  font-size: 0.9rem;
   opacity: 0.75;
 }
 
@@ -57,24 +62,40 @@ body {
 /* RIGHT COLUMN */
 
 .statement {
-  font-size: 1.4rem;
+  font-size: 1.15rem;   /* much smaller */
   font-weight: 500;
-  line-height: 1.5;
-  margin-bottom: 28px;
-  max-width: 650px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+  max-width: 750px;
 }
 
 .intro p {
-  font-size: 1rem;
-  line-height: 1.85;
-  margin-bottom: 18px;
-  max-width: 650px;
+  font-size: 0.95rem;
+  line-height: 1.75;
+  margin-bottom: 14px;
+  max-width: 750px;
 }
 
-/* Make layout responsive */
+/* Remove heavy nav background */
+.masthead {
+  background: white !important;
+  border-bottom: 1px solid #eee;
+}
+
+/* Make nav lighter */
+.greedy-nav a {
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+.greedy-nav a:hover {
+  opacity: 1;
+}
+
+/* Responsive */
 @media (max-width: 900px) {
   .home-layout {
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 35px;
   }
 }
