@@ -136,3 +136,24 @@ a:hover{
   display: none !important;
 }
 
+/* Make nav more compact so it doesn't collapse early */
+
+.greedy-nav {
+  padding: 0.5rem 0 !important;
+}
+
+.greedy-nav a {
+  padding: 0.25rem 0.5rem !important;   /* smaller horizontal padding */
+  font-size: 0.92rem !important;        /* slightly smaller text */
+  letter-spacing: 0 !important;
+}
+
+.site-title {
+  font-size: 1rem !important;           /* slightly smaller name */
+}
+
+/* Make nav items tighter together */
+.greedy-nav .visible-links > li {
+  margin-right: 0.5rem !important;
+}
+
