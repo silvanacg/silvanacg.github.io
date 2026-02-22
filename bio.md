@@ -7,8 +7,6 @@ author_profile: true
 
 I studied Geology at EAFIT University in Colombia, where I became fascinated by how Earth systems work and how natural hazards affect communities. That interest led me to the University of British Columbia for a Master’s in Geological Sciences, where I focused on landslides and geospatial data analysis. During that time, I began combining GIS, programming, and statistics to build models predicting landslide susceptibility, and discovered I was especially drawn to the analytical side of climate and hazard research.
 
-</div>
-
 <!-- Soft divider (visual rhythm without feeling “designed”) -->
 <p style="text-align:center; opacity:.22; margin: 1.6rem 0;">✦ ✦ ✦</p>
 
