@@ -1,35 +1,52 @@
----
-# Only the main Sass file needs front matter
----
+/* ===== Bold but Academic Reset ===== */
+:root{
+  --accent: #6d28d9;
+  --text: #111827;
+  --muted: rgba(17,24,39,.72);
+  --border: rgba(17,24,39,.10);
+  --panel: rgba(255,255,255,.80);
+  --soft: rgba(17,24,39,.04);
+}
 
-$link-color: #6d28d9;
-$primary-color: #6d28d9;
+html{ scroll-behavior: smooth; }
+body{
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+/* Make text readable (fixes “wide boring” look) */
+.page__content,
+.initial-content{
+  max-width: 980px;
+}
 
-/* Layout */
+/* ===== Homepage layout (your .home-layout) ===== */
 .home-layout{
   display: grid;
   grid-template-columns: 320px 1fr;
   gap: 2rem;
   align-items: start;
+  margin-top: 1.25rem;
 }
 
 @media (max-width: 980px){
   .home-layout{ grid-template-columns: 1fr; }
-  .profile{ position: relative; top: auto; }
 }
 
-/* Sidebar */
+/* ===== Sidebar profile card ===== */
 .profile{
   position: sticky;
   top: 1.25rem;
-  border: 1px solid rgba(0,0,0,.10);
+  border: 1px solid var(--border);
   border-radius: 18px;
   padding: 1.25rem;
-  background: rgba(255,255,255,.72);
-  backdrop-filter: blur(6px);
+  background: var(--panel);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 16px 40px rgba(0,0,0,.06);
+}
+
+@media (max-width: 980px){
+  .profile{ position: relative; top: auto; }
 }
 
 .profile-photo{
@@ -37,103 +54,114 @@ $primary-color: #6d28d9;
   height: 120px;
   border-radius: 999px;
   object-fit: cover;
-  border: 1px solid rgba(0,0,0,.12);
+  border: 1px solid var(--border);
   display: block;
-  margin-bottom: .85rem;
+  margin-bottom: .9rem;
 }
 
 .profile h2{
   margin: 0 0 .35rem 0;
-  font-size: 1.55rem;
-  letter-spacing: -0.01em;
+  font-size: 1.6rem;
+  line-height: 1.15;
 }
 
 .role{
   margin: 0 0 .75rem 0;
-  opacity: .85;
+  color: var(--muted);
 }
 
-/* Pills */
-.pill-row{ display:flex; flex-wrap:wrap; gap:.5rem; margin: .5rem 0 1rem; }
+/* ===== Pills (Radar / ML / Climate Risk) ===== */
+.tagline{ display:none; } /* hide the old line; we’ll use pills instead */
+
+.pill-row{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .5rem 0 1rem;
+}
+
 .pill{
-  display:inline-flex;
-  padding: .33rem .6rem;
+  display: inline-flex;
+  padding: .33rem .62rem;
   border-radius: 999px;
-  border: 1px solid rgba(0,0,0,.12);
-  background: rgba(0,0,0,.03);
+  border: 1px solid var(--border);
+  background: var(--soft);
   font-size: .92rem;
 }
 
-/* Buttons row */
-.links{ display:flex; flex-wrap:wrap; gap:.5rem; margin: .75rem 0 1rem; }
-
-/* Mini facts */
-.profile-mini{
-  border-top: 1px solid rgba(0,0,0,.08);
-  margin-top: 1rem;
-  padding-top: 1rem;
+/* ===== Buttons / links ===== */
+.links{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+  margin: .75rem 0 0;
 }
-.mini-row{ display:grid; grid-template-columns: 64px 1fr; gap:.75rem; margin-bottom: .6rem; }
-.mini-label{ font-weight: 700; opacity: .7; }
-.mini-value{ opacity: .88; }
 
-/* Section nav */
-.side-nav{
-  display:flex;
-  flex-wrap:wrap;
-  gap: .75rem;
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(0,0,0,.08);
+.links a{
+  text-decoration: none;
+  border: 1px solid var(--border);
+  padding: .45rem .65rem;
+  border-radius: 999px;
+  background: rgba(255,255,255,.85);
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  font-weight: 600;
+  font-size: .95rem;
 }
-.side-nav a{ text-decoration:none; font-weight: 650; opacity: .9; }
-.side-nav a:hover{ text-decoration: underline; }
 
-/* Main content */
-.intro{ padding-top: .25rem; }
+.links a:hover{
+  transform: translateY(-1px);
+  border-color: rgba(109,40,217,.35);
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+.links a[href*="CV"]{
+  background: var(--accent);
+  color: white !important;
+  border-color: transparent;
+}
+
+/* ===== Main intro ===== */
+.intro{
+  padding-top: .25rem;
+  max-width: 720px;
+}
+
 .statement{
-  font-size: 1.25rem;
+  font-size: 1.35rem;
   line-height: 1.25;
-  letter-spacing: -0.01em;
-  margin-top: 0;
+  margin: 0 0 .9rem 0;
+}
+
+.intro p{
+  font-size: 1.03rem;
+  line-height: 1.65;
+  color: rgba(17,24,39,.90);
 }
 
 .quicklinks{
-  display:flex;
-  flex-wrap:wrap;
-  gap:.6rem;
-  align-items:center;
-  margin: 1rem 0 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  align-items: center;
+  margin: 1.1rem 0 1.25rem;
   padding: .75rem 1rem;
   border-radius: 14px;
-  border: 1px solid rgba(0,0,0,.10);
-  background: rgba(0,0,0,.03);
+  border: 1px solid var(--border);
+  background: var(--soft);
 }
 
-/* Cards */
-.section{
-  padding: 1.75rem 0;
-  border-top: 1px solid rgba(0,0,0,.08);
+.quicklinks a{
+  font-weight: 700;
+  text-decoration: none;
 }
 
-.card-grid{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1rem;
+.quicklinks a:hover{ text-decoration: underline; }
+
+/* ===== Optional: make headings feel designed ===== */
+.intro h2{
+  margin-top: 2rem;
+  letter-spacing: -0.02em;
 }
 
-.card{
-  border: 1px solid rgba(0,0,0,.10);
-  border-radius: 16px;
-  padding: 1rem;
-  background: rgba(255,255,255,.72);
-  backdrop-filter: blur(6px);
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-
-.card:hover{
-  transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(0,0,0,.08);
-}
-
-.backtotop{ margin-top: 1rem; }
+/* ===== Make the site feel less “template” ===== */
+.page__title{ display:none; } /* hides empty title spacing if needed */
