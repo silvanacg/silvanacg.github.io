@@ -82,13 +82,6 @@ a:hover{
   text-underline-offset: 3px;
 }
 
-/* --- Footer: remove the bright blue if you want --- */
-.page__footer,
-.page__footer footer{
-  background: #ffffff !important;
-  border-top: 1px solid rgba(0,0,0,.06);
-}
-
 /* ======================================================
    Your original photo cards (unchanged)
    ====================================================== */
@@ -124,16 +117,6 @@ a:hover{
   font-size: 0.9em;
   padding: 10px 12px 12px;
   opacity: 0.8;
-}
-
-/* Completely remove hamburger menu */
-.greedy-nav__toggle {
-  display: none !important;
-}
-
-/* Prevent hidden nav items from collapsing */
-.greedy-nav .hidden-links {
-  display: none !important;
 }
 
 /* Make nav more compact so it doesn't collapse early */
