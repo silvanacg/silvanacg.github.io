@@ -1,66 +1,41 @@
-.photo-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-  gap: 18px;
-  margin: 22px 0 28px 0;
-}
-
-.photo-card {
-  background: white;
-  border-radius: 18px;
-  overflow: hidden;
-  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
-  transition: transform .15s ease, box-shadow .15s ease;
-}
-
-.photo-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 16px 32px rgba(0,0,0,0.12);
-}
-
-.photo-card img {
-  width: 100%;
-  height: 220px;
-  object-fit: cover;
-}
-
-.photo-cap {
-  text-align: center;
-  font-size: 0.9em;
-  padding: 10px 12px 12px;
-  opacity: 0.8;
-}
+/* ===== Clean Editorial Layout ===== */
 
 body {
-  background: #fafbff;
+  background: #fafafa;
   color: #222;
+  font-weight: 400;
 }
 
+/* Two-column grid */
 .home-layout {
   display: grid;
-  grid-template-columns: 320px 1fr;
-  gap: 80px;
-  margin-top: 40px;
+  grid-template-columns: 280px 1fr;
+  gap: 90px;
+  margin-top: 60px;
+  align-items: start;
 }
 
-/* Profile column */
+/* LEFT COLUMN */
+
 .profile-photo {
-  width: 190px;
-  height: 190px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 25px;
 }
 
 .profile h2 {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
+  font-weight: 600;
   margin-bottom: 8px;
 }
 
 .role {
-  opacity: .7;
-  margin-bottom: 20px;
-  line-height: 1.4;
+  font-size: 0.95rem;
+  opacity: 0.65;
+  margin-bottom: 18px;
+  line-height: 1.5;
 }
 
 .links {
@@ -71,58 +46,35 @@ body {
 
 .links a {
   text-decoration: none;
-  font-weight: 500;
-  opacity: .85;
+  font-size: 0.9rem;
+  opacity: 0.75;
 }
 
 .links a:hover {
   opacity: 1;
 }
 
-/* Right column */
-.intro h1 {
-  font-size: 2.6rem;
-  font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 25px;
+/* RIGHT COLUMN */
+
+.statement {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 28px;
+  max-width: 650px;
 }
 
 .intro p {
-  font-size: 1.05rem;
+  font-size: 1rem;
   line-height: 1.85;
   margin-bottom: 18px;
+  max-width: 650px;
 }
 
-hr {
-  margin: 35px 0;
-  opacity: .2;
-}
-
-/* Research pillars */
-.pillars {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-}
-
-.pillars h3 {
-  font-size: 1rem;
-  letter-spacing: .02em;
-  margin-bottom: 8px;
-}
-
-.pillars p {
-  font-size: .95rem;
-  opacity: .8;
-}
-
-/* Responsive */
+/* Make layout responsive */
 @media (max-width: 900px) {
   .home-layout {
     grid-template-columns: 1fr;
     gap: 40px;
-  }
-  .pillars {
-    grid-template-columns: 1fr;
   }
 }
