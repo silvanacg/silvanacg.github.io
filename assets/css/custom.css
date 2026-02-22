@@ -30,3 +30,71 @@
   padding: 10px 12px 12px;
   opacity: 0.8;
 }
+
+/* ---------- Global polish ---------- */
+.page__content p { line-height: 1.75; font-size: 1.03rem; }
+.page__content h2 { margin-top: 2.2rem; }
+.page__content h3 { margin-top: 1.6rem; }
+.page__content hr { margin: 2rem 0; opacity: .25; }
+
+/* Softer site background */
+body { background: #faf9ff; }
+
+/* Make the main content feel like a card */
+.initial-content, .page__inner-wrap {
+  background: rgba(255,255,255,0.92);
+  border-radius: 18px;
+}
+.page__inner-wrap { padding: 12px 18px; }
+
+/* Links feel nicer */
+a { text-decoration-thickness: 2px; text-underline-offset: 3px; }
+
+/* ---------- Cute “section cards” ---------- */
+.section-card {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 16px 16px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+  margin: 16px 0;
+}
+
+/* ---------- Buttons ---------- */
+.btnx {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid rgba(0,0,0,0.12);
+  background: rgba(155,143,230,0.14);
+  font-weight: 650;
+  text-decoration: none !important;
+  margin-right: 10px;
+}
+.btnx:hover { transform: translateY(-1px); }
+
+/* ---------- Project cards grid ---------- */
+.proj-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 14px;
+}
+.proj-card {
+  background: white;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-radius: 18px;
+  padding: 14px 14px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+.proj-title { margin: 0 0 6px 0; font-size: 1.05rem; }
+.proj-meta { opacity: .75; font-size: .95rem; margin: 0 0 10px 0; }
+
+/* Optional thumbnail */
+.proj-thumb {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-bottom: 10px;
+}
