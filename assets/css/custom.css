@@ -6,12 +6,11 @@
 :root{
   --bg:#ffffff;
   --text:#111827;
-  --muted: rgba(17,24,39,.72);
   --soft: rgba(17,24,39,.04);
-  --border: rgba(17,24,39,.10);
 
-  /* pastel but formal */
-  --accent: #6d28d9;
+  /* unified link color (calm academic) */
+  --link: #5f6fa5;
+  --link-hover: #3d4f8a;
 }
 
 /* --- Make site white (remove skin gray/beige) --- */
@@ -33,33 +32,11 @@ body,
   color: rgba(17,24,39,.92);
 }
 
-/* --- Navigation: softer spacing + clean hover --- */
+/* --- Masthead border + accent strip --- */
 .masthead{
   border-bottom: 1px solid rgba(0,0,0,.06);
 }
 
-.greedy-nav{
-  padding: .75rem 0 !important;
-}
-
-.greedy-nav a{
-  padding: .45rem .75rem !important;
-  border-radius: 999px;
-  font-weight: 600;
-  color: rgba(17,24,39,.86) !important;
-}
-
-.greedy-nav a:hover{
-  background: var(--soft);
-  text-decoration: none;
-}
-
-.site-title{
-  font-weight: 800 !important;
-  letter-spacing: -0.02em;
-}
-
-/* --- Pastel accent strip (cute but serious) --- */
 .masthead::after{
   content:"";
   display:block;
@@ -71,14 +48,63 @@ body,
   );
 }
 
-/* --- Links: formal but lively --- */
-a{
-  color: var(--accent);
+/* --- Hide top-left site title but keep SEO title in config --- */
+.site-title{
+  display: none !important;
+}
+
+/* --- Center the navigation cleanly --- */
+.masthead__inner-wrap{
+  justify-content: center !important;
+}
+
+.greedy-nav{
+  justify-content: center !important;
+  padding: 0.5rem 0 !important; /* compact so it doesn't collapse early */
+}
+
+/* ensure visible links are centered and don't reserve left space */
+.greedy-nav .visible-links{
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: 0 !important;
+  width: auto !important;
+}
+
+.greedy-nav a{
+  padding: 0.25rem 0.5rem !important;
+  font-size: 0.92rem !important;
+  letter-spacing: 0 !important;
+  border-radius: 999px;
+  font-weight: 600;
+  color: rgba(17,24,39,.86) !important;
+}
+
+.greedy-nav a:hover{
+  background: var(--soft);
   text-decoration: none;
 }
+
+/* Make nav items slightly tighter */
+.greedy-nav .visible-links > li{
+  margin-right: 0.4rem !important;
+}
+.greedy-nav .visible-links > li:last-child{
+  margin-right: 0 !important;
+}
+
+/* --- Unified link color (no confusing visited purple) --- */
+a{
+  color: var(--link);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+a:visited{
+  color: var(--link);
+}
 a:hover{
+  color: var(--link-hover);
   text-decoration: underline;
-  text-decoration-thickness: 2px;
   text-underline-offset: 3px;
 }
 
@@ -118,47 +144,3 @@ a:hover{
   padding: 10px 12px 12px;
   opacity: 0.8;
 }
-
-/* Make nav more compact so it doesn't collapse early */
-
-.greedy-nav {
-  padding: 0.5rem 0 !important;
-}
-
-.greedy-nav a {
-  padding: 0.25rem 0.5rem !important;   /* smaller horizontal padding */
-  font-size: 0.92rem !important;        /* slightly smaller text */
-  letter-spacing: 0 !important;
-}
-
-.site-title {
-  font-size: 1rem !important;           /* slightly smaller name */
-}
-
-/* Make nav items tighter together */
-.greedy-nav .visible-links > li {
-  margin-right: 0.5rem !important;
-}
-
-/* Unified link color */
-a {
-  color: #5f6fa5;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-a:visited {
-  color: #5f6fa5;
-}
-
-a:hover {
-  color: #3d4f8a;
-  text-decoration: underline;
-}
-
-.site-title {
-  display: none !important;
-}
-
-
-
