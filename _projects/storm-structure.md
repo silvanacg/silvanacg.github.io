@@ -1,6 +1,7 @@
 ---
 title: "Storm Structure and Reflectivity Patterns in Precipitation Systems Associated with Post-Fire Debris-Flow Storms"
 layout: single
+classes: wide
 author_profile: true
 ---
 
