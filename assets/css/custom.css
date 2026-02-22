@@ -1,33 +1,34 @@
 /* ======================================================
-   Silvana — CLEAN BASELINE (balanced + no skinny text)
-   Replace the entire assets/css/custom.css with this.
+   Silvana — Minimal polish (keep original feel)
+   White background + Inter + cute-academic colors
    ====================================================== */
 
 :root{
   --bg:#ffffff;
   --text:#111827;
-  --muted:rgba(17,24,39,.70);
+  --muted:rgba(17,24,39,.72);
   --border:rgba(17,24,39,.10);
   --soft:rgba(17,24,39,.04);
 
+  /* cute-but-serious accent */
   --accent:#6d28d9;
-  --accent-soft:rgba(109,40,217,.07);
+  --accent-soft:rgba(109,40,217,.08);
   --accent-border:rgba(109,40,217,.18);
 }
 
-/* ---------- Global look ---------- */
+/* ---------- Global ---------- */
 html{ scroll-behavior:smooth; }
 
 body{
-  background:var(--bg) !important;
-  color:var(--text);
+  background: var(--bg) !important;
+  color: var(--text);
   font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
-  font-size:16px;
-  line-height:1.7;
-  letter-spacing:-0.01em;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
 }
 
-/* Kill any beige skin backgrounds */
+/* Force white (removes beige skins) */
 .page,
 .page__inner-wrap,
 .initial-content,
@@ -41,7 +42,7 @@ body{
   background:#fff !important;
 }
 
-/* Center the site container nicely */
+/* Center overall page content (but don’t mess with your home layout) */
 .initial-content,
 .page__inner-wrap,
 .page__content{
@@ -62,199 +63,96 @@ body{
   }
 }
 
-/* ---------- Nav (soft spacing) ---------- */
-.masthead{ border-bottom:1px solid rgba(0,0,0,.06); }
+/* ---------- Links ---------- */
+a{ color: var(--accent); text-decoration:none; }
+a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
 
-.greedy-nav{ padding:.75rem 0 !important; }
+/* ---------- Nav: softer spacing + cute accent line ---------- */
+.masthead{ border-bottom: 1px solid rgba(0,0,0,.06); }
+
+.greedy-nav{ padding: .75rem 0 !important; }
 
 .greedy-nav a{
-  padding:.45rem .75rem !important;
-  border-radius:999px;
-  font-weight:600;
-  color:rgba(17,24,39,.86) !important;
+  padding: .45rem .75rem !important;
+  border-radius: 999px;
+  font-weight: 600;
+  color: rgba(17,24,39,.86) !important;
 }
 
 .greedy-nav a:hover{
-  background:var(--soft);
-  text-decoration:none;
+  background: var(--soft);
+  text-decoration: none;
 }
 
 .site-title{
-  font-weight:800 !important;
-  letter-spacing:-0.02em;
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
 }
 
-/* subtle cute-but-serious accent line */
+/* subtle pastel strip (cute but serious) */
 .masthead::after{
   content:"";
   display:block;
   height:3px;
-  background:linear-gradient(90deg,
+  background: linear-gradient(90deg,
     rgba(109,40,217,.22),
     rgba(147,197,253,.22),
     rgba(244,114,182,.16)
   );
 }
 
-/* ---------- Links ---------- */
-a{ color:var(--accent); text-decoration:none; }
-a:hover{
-  text-decoration:underline;
-  text-decoration-thickness:2px;
-  text-underline-offset:3px;
-}
+/* ---------- Typography tweaks (no layout changes) ---------- */
+h1, h2, h3{ letter-spacing: -0.02em; }
 
-/* ======================================================
-   HOME: Balanced two-column layout WITHOUT skinny text
-   ====================================================== */
-
-/* Important: minmax() prevents the right column from shrinking */
-.home-layout{
-  display:grid;
-  grid-template-columns: 280px minmax(640px, 1fr);
-  gap: 3rem;
-  align-items:start;
-  justify-content:center; /* keeps it balanced on wide screens */
-  margin-top: 2.5rem;
-}
-
-/* Mobile: stack */
-@media (max-width: 940px){
-  .home-layout{
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-  }
-}
-
-/* Left profile column */
-.profile{
-  text-align:left;
-}
-
-.profile-photo{
-  width: 132px;
-  height: 132px;
-  border-radius: 999px;
-  object-fit: cover;
-  border: 1px solid var(--border);
-  display:block;
-  margin: 0 0 .9rem 0;
-}
-
-.profile h2{
-  margin: 0 0 .25rem 0;
-  font-size: 1.25rem;
-}
-
-.role{
-  margin: 0 0 .9rem 0;
-  color: var(--muted);
-}
-
-/* Link list under profile */
-.links{
-  display:flex;
-  flex-direction:column;
-  gap:.5rem;
-}
-
-.links a{
-  font-weight:600;
-  color: rgba(17,24,39,.85);
-}
-
-.links a:hover{
-  color: var(--accent);
-  text-decoration:none;
-}
-
-/* Right intro column */
-.intro{
-  width: 100%;
-  max-width: 760px;    /* nice reading width */
-  min-width: 0;        /* prevents overflow issues in grid */
-}
-
-/* THIS is what fixes “one phrase per line”: remove any paragraph max-widths */
-.intro p{
-  max-width:none !important;
-  width:100% !important;
-  margin: 0 0 1rem 0;
-  text-align:left;
+.page__content p{
   color: rgba(17,24,39,.92);
 }
 
-/* Your big opening line */
-.statement{
-  font-size: 1.45rem;
-  line-height: 1.25;
-  margin: 0 0 1rem 0;
-  letter-spacing: -0.01em;
-}
-
-/* Cute but serious quicklinks banner */
-.quicklinks{
-  display:flex;
-  flex-wrap:wrap;
-  gap:.6rem;
-  align-items:center;
-  padding:.85rem 1rem;
-  border-radius:14px;
-  border:1px solid var(--accent-border);
-  background:linear-gradient(90deg,
-    rgba(109,40,217,.06),
-    rgba(147,197,253,.07),
-    rgba(244,114,182,.05)
-  );
-  margin: 1.2rem 0 0;
-}
-
-.quicklinks a{ font-weight:750; }
-
-/* OPTIONAL: If you truly want justification (paper-like) */
-/*
+/* Optional: make your intro paragraph feel less “blocky” */
 .intro p{
-  text-align: justify;
-  hyphens: auto;
-}
-*/
-
-/* ======================================================
-   Photo cards (your original styles)
-   ====================================================== */
-
-.photo-row{
-  display:grid;
-  grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
-  gap:18px;
-  margin:22px 0 28px 0;
-}
-
-.photo-card{
-  background:white;
-  border-radius:18px;
-  overflow:hidden;
-  box-shadow:0 10px 24px rgba(0,0,0,0.08);
-  transition:transform .15s ease, box-shadow .15s ease;
-}
-
-.photo-card:hover{
-  transform:translateY(-3px);
-  box-shadow:0 16px 32px rgba(0,0,0,0.12);
-}
-
-.photo-card img{
-  width:100%;
-  height:220px;
-  object-fit:cover;
-}
-
-.photo-cap{
-  text-align:center;
-  font-size:0.9em;
-  padding:10px 12px 12px;
-  opacity:0.8;
+  line-height: 1.75;
 }
 
 /* Footer clean */
-.page__footer{ border-top:1px solid rgba(0,0,0,.06); }
+.page__footer{ border-top: 1px solid rgba(0,0,0,.06); }
+
+/* ======================================================
+   Your original photo cards (unchanged)
+   ====================================================== */
+
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 18px;
+  margin: 22px 0 28px 0;
+}
+
+.photo-card {
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,0.08);
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.photo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 32px rgba(0,0,0,0.12);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.photo-cap {
+  text-align: center;
+  font-size: 0.9em;
+  padding: 10px 12px 12px;
+  opacity: 0.8;
+}
