@@ -1,6 +1,7 @@
 ---
 title: "Predicting Post-Fire Debris Flows Using Atmospheric and Environmental Variables"
 layout: single
+classes: wide
 author_profile: true
 ---
 
