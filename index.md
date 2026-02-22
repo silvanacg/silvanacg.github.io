@@ -1,5 +1,5 @@
 ---
-title: "Silvana Castillo Guerra"
+title: ""
 layout: single
 permalink: /
 author_profile: true
