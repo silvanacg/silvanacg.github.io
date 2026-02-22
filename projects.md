@@ -22,5 +22,5 @@ Modeling heat stress effects on milk production and economic losses in Colombia.
 [Read more](/projects/dairy-production/)
 
 ### Geospatial Automation for Environmental and Social Risk Assessments (Internship)
-ArcPy workflows to automate environmental and social risk screening for infrastructure projects (spatial summaries, proximity analysis, standardized outputs).  
-[Repository](https://github.com/silvanacg/Arcpy_Scripts)
+ArcPy workflows to automate environmental and social risk screening for infrastructure projects (spatial summaries, proximity analysis, standardized outputs). We co-authored a blog post discussing this work and its broader context.
+[Blog](https://www.iadb.org/en/blog/environmental-and-social-solutions/map-evidence-how-idbs-es-geohub-transforming-territorial-analysis) — [Repository](https://github.com/silvanacg/Arcpy_Scripts)
