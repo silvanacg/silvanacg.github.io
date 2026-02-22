@@ -125,3 +125,14 @@ a:hover{
   padding: 10px 12px 12px;
   opacity: 0.8;
 }
+
+/* Completely remove hamburger menu */
+.greedy-nav__toggle {
+  display: none !important;
+}
+
+/* Prevent hidden nav items from collapsing */
+.greedy-nav .hidden-links {
+  display: none !important;
+}
+
