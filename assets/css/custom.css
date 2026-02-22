@@ -157,3 +157,20 @@ a:hover{
   margin-right: 0.5rem !important;
 }
 
+/* Unified link color */
+a {
+  color: #5f6fa5;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:visited {
+  color: #5f6fa5;
+}
+
+a:hover {
+  color: #3d4f8a;
+  text-decoration: underline;
+}
+
+
