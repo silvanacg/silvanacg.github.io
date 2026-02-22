@@ -56,6 +56,9 @@ Traditional susceptibility variables (slope, burn severity) provided weaker pred
   <img src="/assets/modelroc_import copy.png" style="max-width:700px; border-radius:12px;">
   <p style="font-size:0.9em; opacity:0.75;">
     Importance of features included in the model
+  </p>
+</div>
+
 
 ### Predictive performance
 The model achieved strong discrimination between events and non-events (AUC ≈ 0.93).
@@ -69,7 +72,5 @@ Applying the model to a real debris-flow event produced more spatially nuanced h
     Example debris-flow probability output compared to traditional threshold methods
   </p>
 </div>
-
----
 
 **Outcome:** Research manuscript in preparation
