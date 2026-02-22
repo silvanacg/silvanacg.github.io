@@ -1,4 +1,4 @@
-/* ===== Warm Academic Homepage ===== */
+/* ===== Warm Academic Homepage (Balanced + Centered) ===== */
 
 :root{
   --ink:#202124;
@@ -32,19 +32,24 @@ body{
   color: var(--accent);
 }
 
-/* Layout */
+/* ===== Homepage Layout (THIS fixes the "too far right" look) ===== */
 .home-layout{
   display:grid;
-  grid-template-columns: 260px 1fr;
-  gap: 72px;
-  margin-top: 52px;
+  grid-template-columns: 320px 1fr;  /* stronger left column */
+  gap: 56px;                         /* smaller gap */
+  margin: 40px auto 0 auto;          /* center the block */
+  max-width: 1100px;                 /* keeps it balanced */
   align-items:start;
 }
 
 /* LEFT COLUMN */
+.profile{
+  padding-top: 6px;
+}
+
 .profile-photo{
-  width: 145px;
-  height: 145px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 18px;
@@ -52,7 +57,7 @@ body{
 }
 
 .profile h2{
-  font-size: 1.22rem;
+  font-size: 1.24rem;
   font-weight: 650;
   margin: 0 0 6px 0;
 }
@@ -94,14 +99,12 @@ body{
   font-weight: 520;
   line-height: 1.65;
   margin: 0 0 16px 0;
-  max-width: 760px;
 }
 
 .intro p{
   font-size: 0.96rem;
   line-height: 1.8;
   margin: 0 0 14px 0;
-  max-width: 760px;
 }
 
 .quicklinks{
@@ -120,20 +123,11 @@ body{
   color: var(--accent2);
 }
 
-/* Make ONLY the homepage content area wider */
-.page__content .home-layout {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Also widen the inner wrap on wide layouts */
-.layout--single.wide .page__inner-wrap {
-  max-width: 1200px;
-}
-
-
 /* Responsive */
 @media (max-width: 900px){
-  .home-layout{ grid-template-columns: 1fr; gap: 34px; }
+  .home-layout{
+    grid-template-columns: 1fr;
+    gap: 34px;
+    max-width: 680px;
+  }
 }
