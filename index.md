@@ -8,8 +8,6 @@ author: silvana
 
 <div class="section-card">
 
-<h1 style="margin-top:0;">Hi, I'm Silvana 👋</h1>
-
 <p>
 I am a <strong>Ph.D. Candidate in Geography</strong> studying hydroclimate hazards and post-fire debris flows.
 </p>
