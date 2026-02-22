@@ -3,6 +3,7 @@ title: ""
 layout: single
 permalink: /
 author_profile: false
+classes: wide
 ---
 
 <div class="home-layout">
