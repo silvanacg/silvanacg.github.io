@@ -1,3 +1,98 @@
+/* ======================================================
+   Minimal overlay: White + soft nav + pastel accent
+   (Does NOT change layout/grid widths)
+   ====================================================== */
+
+:root{
+  --bg:#ffffff;
+  --text:#111827;
+  --muted: rgba(17,24,39,.72);
+  --soft: rgba(17,24,39,.04);
+  --border: rgba(17,24,39,.10);
+
+  /* pastel but formal */
+  --accent: #6d28d9;
+}
+
+/* --- Make site white (remove skin gray/beige) --- */
+body,
+.page,
+.page__inner-wrap,
+.initial-content,
+.page__content,
+.layout--single,
+.masthead,
+.masthead__inner-wrap,
+.greedy-nav{
+  background: var(--bg) !important;
+  color: var(--text);
+}
+
+/* Optional: slightly reduce “gray” body text from some skins */
+.page__content p{
+  color: rgba(17,24,39,.92);
+}
+
+/* --- Navigation: softer spacing + clean hover --- */
+.masthead{
+  border-bottom: 1px solid rgba(0,0,0,.06);
+}
+
+.greedy-nav{
+  padding: .75rem 0 !important;
+}
+
+.greedy-nav a{
+  padding: .45rem .75rem !important;
+  border-radius: 999px;
+  font-weight: 600;
+  color: rgba(17,24,39,.86) !important;
+}
+
+.greedy-nav a:hover{
+  background: var(--soft);
+  text-decoration: none;
+}
+
+.site-title{
+  font-weight: 800 !important;
+  letter-spacing: -0.02em;
+}
+
+/* --- Pastel accent strip (cute but serious) --- */
+.masthead::after{
+  content:"";
+  display:block;
+  height:3px;
+  background: linear-gradient(90deg,
+    rgba(109,40,217,.22),
+    rgba(147,197,253,.22),
+    rgba(244,114,182,.16)
+  );
+}
+
+/* --- Links: formal but lively --- */
+a{
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+/* --- Footer: remove the bright blue if you want --- */
+.page__footer,
+.page__footer footer{
+  background: #ffffff !important;
+  border-top: 1px solid rgba(0,0,0,.06);
+}
+
+/* ======================================================
+   Your original photo cards (unchanged)
+   ====================================================== */
+
 .photo-row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
