@@ -1,29 +1,36 @@
 /* ======================================================
-   SILVANA — Balanced, Clean, White Layout
+   SILVANA — Balanced 2-Column (not left/right heavy)
+   Replace entire assets/css/custom.css with this
    ====================================================== */
 
 :root{
-  --bg: #ffffff;
-  --text: #111827;
-  --muted: rgba(17,24,39,.70);
-  --border: rgba(17,24,39,.10);
-  --accent: #6d28d9;
-  --accent-soft: rgba(109,40,217,.08);
+  --bg:#fff;
+  --text:#111827;
+  --muted:rgba(17,24,39,.70);
+  --border:rgba(17,24,39,.10);
+  --soft:rgba(17,24,39,.04);
+
+  --accent:#6d28d9;
+  --accent-soft:rgba(109,40,217,.08);
+  --accent-border:rgba(109,40,217,.18);
+
+  --radius-lg:18px;
+  --radius-md:14px;
 }
 
-/* ---------- GLOBAL ---------- */
+/* ---------- Base ---------- */
+html{ scroll-behavior:smooth; }
 
 body{
-  background: var(--bg) !important;
-  color: var(--text);
-  font-family: Inter, -apple-system, BlinkMacSystemFont,
-               "Segoe UI", Roboto, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.7;
-  letter-spacing: -0.01em;
+  background:var(--bg) !important;
+  color:var(--text);
+  font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size:16px;
+  line-height:1.7;
+  letter-spacing:-0.01em;
 }
 
-/* Remove theme background colors */
+/* Force white everywhere (kills beige skins) */
 .page,
 .page__inner-wrap,
 .initial-content,
@@ -32,174 +39,196 @@ body{
 .masthead,
 .masthead__inner-wrap,
 .greedy-nav,
-.page__footer{
-  background: #ffffff !important;
+.page__footer,
+.page__footer footer{
+  background:#fff !important;
 }
 
-/* ---------- CENTER WHOLE SITE NATURALLY ---------- */
-
-.page__content,
-.initial-content{
-  max-width: 900px;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-left: 32px !important;
-  padding-right: 32px !important;
+/* ---------- Center site container ---------- */
+.initial-content,
+.page__inner-wrap,
+.page__content{
+  width:100%;
+  max-width:1080px !important;
+  margin-left:auto !important;
+  margin-right:auto !important;
+  padding-left:32px !important;
+  padding-right:32px !important;
 }
 
-/* ---------- NAV (minimal + calm) ---------- */
-
-.masthead{
-  border-bottom: 1px solid rgba(0,0,0,.06);
+@media (max-width:600px){
+  .initial-content,
+  .page__inner-wrap,
+  .page__content{
+    padding-left:18px !important;
+    padding-right:18px !important;
+  }
 }
 
-.greedy-nav{
-  padding: .8rem 0 !important;
-}
+/* ---------- Nav: softer spacing ---------- */
+.masthead{ border-bottom:1px solid rgba(0,0,0,.06); }
+
+.greedy-nav{ padding:.75rem 0 !important; }
 
 .greedy-nav a{
-  font-weight: 600;
-  color: rgba(17,24,39,.85) !important;
-  padding: .4rem .6rem !important;
-  border-radius: 8px;
+  padding:.45rem .75rem !important;
+  border-radius:999px;
+  font-weight:600;
+  color:rgba(17,24,39,.86) !important;
 }
 
 .greedy-nav a:hover{
-  background: rgba(0,0,0,.04);
-  text-decoration: none;
+  background:var(--soft);
+  text-decoration:none;
 }
 
 .site-title{
-  font-weight: 800 !important;
-  letter-spacing: -0.02em;
+  font-weight:800 !important;
+  letter-spacing:-0.02em;
 }
 
-/* Subtle pastel accent line */
+/* subtle cute-but-serious accent line */
 .masthead::after{
   content:"";
   display:block;
   height:3px;
-  background: linear-gradient(
-    90deg,
-    rgba(109,40,217,.25),
-    rgba(147,197,253,.25),
-    rgba(244,114,182,.18)
+  background:linear-gradient(90deg,
+    rgba(109,40,217,.22),
+    rgba(147,197,253,.22),
+    rgba(244,114,182,.16)
   );
 }
 
-/* ---------- REMOVE SIDEBAR GRID IMBALANCE ---------- */
+/* ---------- Links ---------- */
+a{ color:var(--accent); text-decoration:none; }
+a:hover{
+  text-decoration:underline;
+  text-decoration-thickness:2px;
+  text-underline-offset:3px;
+}
 
+/* ---------- BALANCED HOMEPAGE LAYOUT ---------- */
+/* Key idea: two columns, but centered and proportioned */
 .home-layout{
-  display: block;
-  margin-top: 2rem;
+  display:grid;
+  grid-template-columns: 280px minmax(520px, 1fr);
+  gap: 2.25rem;
+  align-items:start;
+  margin-top: 1.75rem;
 }
 
-/* Stack profile + intro cleanly */
+/* On smaller screens, stack naturally */
+@media (max-width: 920px){
+  .home-layout{
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
 
+/* Left column: not a “heavy sidebar”, just a calm profile block */
 .profile{
-  text-align: center;
-  margin-bottom: 2rem;
+  justify-self: end;                /* keeps the left column from hugging the edge */
+  text-align:left;
+  padding: 0;                       /* no big card — calmer */
 }
 
+/* keep profile elements aligned */
 .profile-photo{
-  width: 140px;
-  height: 140px;
+  width: 132px;
+  height: 132px;
   border-radius: 999px;
   object-fit: cover;
   border: 1px solid var(--border);
-  margin-bottom: 1rem;
+  display:block;
+  margin: 0 0 .9rem 0;
 }
 
 .profile h2{
-  margin-bottom: .25rem;
+  margin: 0 0 .25rem 0;
+  font-size: 1.25rem;
+  letter-spacing: -0.01em;
 }
 
 .role{
+  margin: 0 0 .75rem 0;
   color: var(--muted);
-  margin-bottom: .75rem;
 }
 
-/* Pills */
-
-.pill-row{
+/* buttons/links – compact, tidy */
+.links{
   display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
-  gap:.5rem;
-  margin:.5rem 0 1rem;
+  flex-direction:column;
+  gap:.45rem;
+  margin-top:.75rem;
 }
 
+.links a{
+  display:inline-flex;
+  align-items:center;
+  gap:.45rem;
+  padding:.35rem .1rem;
+  color: rgba(17,24,39,.85);
+  font-weight:600;
+}
+
+.links a:hover{
+  color: var(--accent);
+  text-decoration:none;
+}
+
+/* If you use pills (optional) */
+.pill-row{ display:flex; flex-wrap:wrap; gap:.5rem; margin:.5rem 0 .75rem; }
 .pill{
-  padding:.35rem .7rem;
+  padding:.32rem .6rem;
   border-radius:999px;
+  border:1px solid var(--accent-border);
   background:var(--accent-soft);
   font-size:.9rem;
 }
 
-/* Sidebar links now centered */
-
-.links{
-  display:flex;
-  justify-content:center;
-  gap:.6rem;
-  flex-wrap:wrap;
-}
-
-.links a{
-  border:1px solid var(--border);
-  padding:.45rem .75rem;
-  border-radius:999px;
-  font-weight:600;
-  font-size:.9rem;
-}
-
-.links a[href*="CV"],
-.links a[href*=".pdf"]{
-  background:var(--accent);
-  color:white !important;
-  border:none;
-}
-
-/* ---------- INTRO ---------- */
-
+/* Right column: intro content gets a real readable width */
 .intro{
-  text-align:left;
+  justify-self: start;
+  max-width: 760px;
 }
 
-.statement{
-  font-size:1.4rem;
-  line-height:1.3;
-  margin-bottom:1rem;
-  text-align:center;
-}
-
-/* Make intro paragraphs comfortable width */
+/* FIX: stop the “one word per line” look */
 .intro p{
-  max-width:700px;
-  margin-left:auto;
-  margin-right:auto;
+  max-width: 760px;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: left;
+  color: rgba(17,24,39,.92);
 }
 
-/* Soft quicklinks banner */
+/* headline */
+.statement{
+  font-size: 1.35rem;
+  line-height: 1.25;
+  margin: 0 0 1rem 0;
+  letter-spacing: -0.01em;
+}
 
+/* quicklinks banner (cute but serious) */
 .quicklinks{
   display:flex;
-  justify-content:center;
-  gap:.6rem;
   flex-wrap:wrap;
-  padding:.9rem 1rem;
-  margin:1.5rem auto;
-  border-radius:12px;
-  background:rgba(109,40,217,.05);
-  border:1px solid rgba(109,40,217,.15);
+  gap:.6rem;
+  align-items:center;
+  padding:.85rem 1rem;
+  border-radius: var(--radius-md);
+  border:1px solid var(--accent-border);
+  background: linear-gradient(90deg,
+    rgba(109,40,217,.06),
+    rgba(147,197,253,.07),
+    rgba(244,114,182,.05)
+  );
+  margin: 1.1rem 0 1.5rem;
 }
 
-.quicklinks a{
-  font-weight:700;
-}
+.quicklinks a{ font-weight:750; }
 
-/* ---------- PHOTO CARDS (unchanged) ---------- */
-
+/* ---------- Photo cards (kept) ---------- */
 .photo-row{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
@@ -212,7 +241,7 @@ body{
   border-radius:18px;
   overflow:hidden;
   box-shadow:0 10px 24px rgba(0,0,0,.08);
-  transition:.15s ease;
+  transition:transform .15s ease, box-shadow .15s ease;
 }
 
 .photo-card:hover{
@@ -233,8 +262,7 @@ body{
   opacity:.8;
 }
 
-/* ---------- FOOTER ---------- */
-
+/* ---------- Footer ---------- */
 .page__footer{
   border-top:1px solid rgba(0,0,0,.06);
 }
