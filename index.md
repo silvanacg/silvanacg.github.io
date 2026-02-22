@@ -6,52 +6,68 @@ author_profile: true
 author: silvana
 ---
 
-<div class="section-card">
+<div class="home-layout">
 
-<p>
-I am a <strong>Ph.D. Candidate in Geography</strong> studying hydroclimate hazards and post-fire debris flows.
-</p>
+  <aside class="profile">
 
-<p>
-My work integrates <strong>satellite imagery, radar reflectivity, rain gauge observations, reanalysis products, and climate projections</strong> to develop statistical and machine-learning models for hazard assessment.
-</p>
+    <img src="/assets/Silvana Castillo2.jpg" class="profile-photo">
 
-<p>
-I aim to translate complex climate data into actionable insights that support resilience planning and risk-informed decision-making.
-</p>
+    <div class="profile-block">
+      <h2>Silvana Castillo Guerra</h2>
+      <p class="role">
+        Ph.D. Candidate<br>
+        Geography · Climate Science
+      </p>
 
-<p>
-  <a class="btnx" href="/assets/Castillo-Silvana_CV.pdf" target="_blank">📄 CV</a>
-  <a class="btnx" href="/projects/">🧠 Projects</a>
-  <a class="btnx" href="/publications/">📚 Publications</a>
-  <a class="btnx" href="/teaching/">🎓 Teaching</a>
-</p>
+      <div class="links">
+        <a href="mailto:YOUR_EMAIL">Email</a>
+        <a href="https://github.com/silvanacg">GitHub</a>
+        <a href="YOUR_LINKEDIN">LinkedIn</a>
+        <a href="/assets/Castillo-Silvana_CV.pdf">CV</a>
+      </div>
+    </div>
 
-</div>
+  </aside>
 
+  <section class="intro">
 
-<div class="section-card">
+    <h1>
+      Understanding how atmospheric processes translate into geomorphic hazards.
+    </h1>
 
-<h2 style="margin-top:0;">Research Focus</h2>
+    <p>
+      I study post-fire debris flows and hydroclimate extremes by integrating radar reflectivity,
+      rain gauge observations, reanalysis products, and climate projections into statistical
+      and machine-learning frameworks.
+    </p>
 
-<ul>
-<li><strong>Storm structure and rainfall extremes</strong> in post-fire debris-flow events</li>
-<li><strong>Machine learning models</strong> for probabilistic hazard prediction</li>
-<li><strong>Future climate risk</strong> and compound wildfire–rainfall hazards</li>
-<li><strong>Applied geospatial tools</strong> for environmental and social risk assessment</li>
-</ul>
+    <p>
+      My work bridges atmospheric science and landscape susceptibility to develop
+      spatially explicit hazard assessments that support resilience planning
+      and informed decision-making.
+    </p>
 
-</div>
+    <hr>
 
+    <div class="pillars">
 
-<div class="section-card">
+      <div>
+        <h3>Storm Structure</h3>
+        <p>Radar-based characterization of precipitation systems intersecting wildfire burn scars.</p>
+      </div>
 
-<h2 style="margin-top:0;">Currently</h2>
+      <div>
+        <h3>Probabilistic Prediction</h3>
+        <p>Random Forest models combining atmospheric drivers and terrain susceptibility.</p>
+      </div>
 
-<ul>
-<li>Analyzing radar-observed precipitation systems intersecting wildfire burn scars</li>
-<li>Developing predictive models that integrate atmospheric and terrain controls</li>
-<li>Exploring how climate change reshapes post-fire debris-flow risk</li>
-</ul>
+      <div>
+        <h3>Future Climate Risk</h3>
+        <p>Compound wildfire–rainfall hazards under warming scenarios.</p>
+      </div>
+
+    </div>
+
+  </section>
 
 </div>
