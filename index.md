@@ -2,7 +2,7 @@
 title: ""
 layout: single
 permalink: /
-author_profile: false
+author_profile: true
 ---
 <p class="statement">
   I work at the intersection of atmospheric science, wildfire, and geomorphic hazards.
