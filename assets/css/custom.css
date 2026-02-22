@@ -31,70 +31,98 @@
   opacity: 0.8;
 }
 
-/* ---------- Global polish ---------- */
-.page__content p { line-height: 1.75; font-size: 1.03rem; }
-.page__content h2 { margin-top: 2.2rem; }
-.page__content h3 { margin-top: 1.6rem; }
-.page__content hr { margin: 2rem 0; opacity: .25; }
-
-/* Softer site background */
-body { background: #faf9ff; }
-
-/* Make the main content feel like a card */
-.initial-content, .page__inner-wrap {
-  background: rgba(255,255,255,0.92);
-  border-radius: 18px;
-}
-.page__inner-wrap { padding: 12px 18px; }
-
-/* Links feel nicer */
-a { text-decoration-thickness: 2px; text-underline-offset: 3px; }
-
-/* ---------- Cute “section cards” ---------- */
-.section-card {
-  background: white;
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 18px;
-  padding: 16px 16px;
-  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
-  margin: 16px 0;
+body {
+  background: #fafbff;
+  color: #222;
 }
 
-/* ---------- Buttons ---------- */
-.btnx {
-  display: inline-block;
-  padding: 10px 14px;
-  border-radius: 12px;
-  border: 1px solid rgba(0,0,0,0.12);
-  background: rgba(155,143,230,0.14);
-  font-weight: 650;
-  text-decoration: none !important;
-  margin-right: 10px;
-}
-.btnx:hover { transform: translateY(-1px); }
-
-/* ---------- Project cards grid ---------- */
-.proj-grid {
+.home-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 16px;
-  margin-top: 14px;
+  grid-template-columns: 320px 1fr;
+  gap: 80px;
+  margin-top: 40px;
 }
-.proj-card {
-  background: white;
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 18px;
-  padding: 14px 14px;
-  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
-}
-.proj-title { margin: 0 0 6px 0; font-size: 1.05rem; }
-.proj-meta { opacity: .75; font-size: .95rem; margin: 0 0 10px 0; }
 
-/* Optional thumbnail */
-.proj-thumb {
-  width: 100%;
-  height: 140px;
+/* Profile column */
+.profile-photo {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
   object-fit: cover;
-  border-radius: 14px;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
+}
+
+.profile h2 {
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.role {
+  opacity: .7;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.links a {
+  text-decoration: none;
+  font-weight: 500;
+  opacity: .85;
+}
+
+.links a:hover {
+  opacity: 1;
+}
+
+/* Right column */
+.intro h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.intro p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  margin-bottom: 18px;
+}
+
+hr {
+  margin: 35px 0;
+  opacity: .2;
+}
+
+/* Research pillars */
+.pillars {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.pillars h3 {
+  font-size: 1rem;
+  letter-spacing: .02em;
+  margin-bottom: 8px;
+}
+
+.pillars p {
+  font-size: .95rem;
+  opacity: .8;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .home-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .pillars {
+    grid-template-columns: 1fr;
+  }
 }
