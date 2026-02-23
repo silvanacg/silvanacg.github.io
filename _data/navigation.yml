@@ -2,13 +2,13 @@ main:
   - title: "About"
     url: /
   - title: "Bio"
-    url: /bio/
+    url: /#bio/
   - title: "Projects"
-    url: /projects/
+    url: /#projects/
   - title: "Presentations"
-    url: /presentations/
+    url: /#presentations/
   - title: "Publications"
-    url: /publications/
+    url: /#publications/
   - title: "Teaching"
-    url: /teaching/
+    url: /#teaching/
 
