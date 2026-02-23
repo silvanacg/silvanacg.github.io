@@ -12,7 +12,7 @@ I am a Ph.D. Candidate in Geography focused on understanding hydroclimate hazard
 
 ---
 
-<section id="bio">
+<a id="bio"></a>
 
 ## Bio
 
@@ -28,8 +28,6 @@ I studied Geology at EAFIT University in Colombia, where I became fascinated by 
   </figcaption>
 </figure>
 
-<div style="max-width: 780px; margin: 0 auto;">
-
 Now, as a Ph.D. candidate in Geography at UC Santa Barbara specializing in Climate Science and Climate Change, my research focuses on post-fire debris flows in California and the rainfall conditions that trigger them. I work with datasets ranging from rain gauges and radar to reanalysis and climate projections, generating insights that support hazard monitoring and early warning in a changing climate.
 
 <figure style="margin: 1.5rem 0 1.25rem;">
@@ -40,21 +38,13 @@ Now, as a Ph.D. candidate in Geography at UC Santa Barbara specializing in Clima
   </figcaption>
 </figure>
 
-</div>
-
 <p style="text-align:center; opacity:.22; margin: 1.6rem 0;">✦ ✦ ✦</p>
-
-<div style="max-width: 780px; margin: 0 auto;">
 
 Outside of research, I enjoy spending time with friends and family, playing tennis, watching (almost any) series, and never saying no to ice cream or a good croissant.
 
-</div>
-
-</section>
-
 ---
 
-<section id="projects">
+<a id="projects"></a>
 
 ## Projects
 
@@ -79,11 +69,9 @@ Modeling heat stress effects on milk production and economic losses in Colombia.
 ArcPy workflows to automate environmental and social risk screening for infrastructure projects (spatial summaries, proximity analysis, standardized outputs). We co-authored a blog post discussing this work and its broader context.  
 [Blog](https://www.iadb.org/en/blog/environmental-and-social-solutions/map-evidence-how-idbs-es-geohub-transforming-territorial-analysis) — [Repository](https://github.com/silvanacg/Arcpy_Scripts)
 
-</section>
-
 ---
 
-<section id="presentations">
+<a id="presentations"></a>
 
 ## Talks & Presentations
 
@@ -124,11 +112,9 @@ Establishing Directions in Postfire Debris-Flow Science Conference, South Lake T
 AGU Fall Meeting 2023, San Francisco, California, USA — Dec 11–15, 2023.  
 [Poster](/assets/AGU2023_Posterppt1.pdf)
 
-</section>
-
 ---
 
-<section id="publications">
+<a id="publications"></a>
 
 ## Publications
 
@@ -147,11 +133,9 @@ Manuscript under review, **Meteorological Applications**.
 SSRN Working Paper.  
 [https://doi.org/10.2139/ssrn.5138368](http://dx.doi.org/10.2139/ssrn.5138368)
 
-</section>
-
 ---
 
-<section id="teaching">
+<a id="teaching"></a>
 
 ## Teaching
 
@@ -160,7 +144,6 @@ SSRN Working Paper.
 
 Led discussion sections and short lectures, supported students with course concepts and technical tools (Python/Jupyter notebooks), graded assignments and exams, and held office hours.
 
-**Courses**
 - **GEOG 6 — Sex, Drugs and Geography** (Spring 2025)
 - **GEOG 13 — Introduction to GIS Programming** (Winter 2025)
 - **GEOG 5 — People, Place and the Environment** (Fall 2021, Spring 2023, Fall 2024)
@@ -174,8 +157,5 @@ Led discussion sections and short lectures, supported students with course conce
 
 Assisted students and instructors with course materials, graded assignments and exams, and held office hours.
 
-**Courses**
 - **EOAS 110 — The Solid Earth: A Dynamic Planet** (Fall 2018, Fall 2019, Winter 2019)
 - **EOAS 326 — Earth and Life Through Time** (Fall 2019)
-
-</section>
