@@ -8,7 +8,7 @@ author: silvana
 
 Hi👋 Welcome to my personal website!
 
-I am a Ph.D. Candidate in Geography focused on understanding hydroclimate hazards. I integrate large datasets (satellite imagery, radar reflectivity, rain gauge observations, reanalysis products, and climate projections) to develop and validate statistical models (e.g., Random Forest) for hazard susceptibility and probability assessment. I aim to translate complex climate data into actionable insights that support resilience planning and decision-making for risk assessments.
+I am a Ph.D. Candidate in Geography focused on understanding hydroclimate hazards. I integrate large datasets (satellite imagery, radar reflectivity, rain gauge observations, reanalysis products, and climate projections) to develop and validate statistical models (e.g., Random Forest) for hazard assessment. I aim to translate complex climate data into actionable insights that support resilience planning and decision-making for risk assessments.
 
 ---
 
@@ -55,7 +55,7 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 
 ### Predicting Debris Flows with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
-[Read more](/projects/rf-debrisflow/)
+[Read more](/projects/rf-debrisflow/) — [Repository](https://github.com/silvanacg/PFDF_RF_Model)
 
 ### Post-Fire Debris Flows Under a Changing Climate
 Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
