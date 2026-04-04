@@ -11,7 +11,7 @@ Collaborative research analyzing structure of precipitation systems and reflecti
 
 ### Predicting Debris Flows with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
-[Read more](/projects/rf-debrisflow/)
+[Read more](/projects/rf-debrisflow/) — [Repository](https://github.com/silvanacg/PFDF_RF_Model)
 
 ### Post-Fire Debris Flows Under a Changing Climate
 Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
