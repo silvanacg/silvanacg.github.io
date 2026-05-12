@@ -4,17 +4,17 @@ permalink: /projects/
 layout: single
 author_profile: true 
 ---
-### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flows
-Collaborative research analyzing structure of precipitation systems and reflectivity in burned areas during storms producing post-fire debris flows 
+### Storm Structure and Radar Reflectivity in Hazardous Rainfall Events
+Collaborative research analyzing precipitation system dynamics and radar reflectivity patterns to improve understanding of rainfall-driven hazards in burned landscapes.
 (With coauthors — manuscript under review)  
 [Read more](/projects/storm-structure/) — [Repository](https://github.com/silvanacg/Tracking-Algorithm)
 
-### Predicting Debris Flows with Random Forest
-Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
+### Predicting Post-fire Hydrological Responses with Random Forest
+Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire hydrological responses.
 [Read more](/projects/rf-debrisflow/) — [Repository](https://github.com/silvanacg/PFDF_RF_Model)
 
-### Post-Fire Debris Flows Under a Changing Climate
-Research evaluating how climate change may alter the frequency of wildfire followed by intense rainfall able to trigger debris flows.  
+### Compound Extreme Fire Weather and Rainfall in a Changing Climate
+Research evaluating how climate change may alter the frequency of extreme fire-weather followed by intense rainfall able to trigger debris flows.  
 [Read more](/projects/future-hazard/)
 
 ### Climate Change Impacts on Dairy Production
