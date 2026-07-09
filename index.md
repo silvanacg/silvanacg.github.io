@@ -49,9 +49,9 @@ Outside of research, I enjoy spending time with friends and family, playing tenn
 ## Projects
 
 ### Storm Structure and Reflectivity Patterns Associated with Post-Fire Debris Flows
-Collaborative research analyzing structure of precipitation systems and reflectivity in burned areas during storms producing post-fire debris flows
-(With coauthors — manuscript under review)  
-[Read more](/projects/storm-structure/) — [Repository](https://github.com/silvanacg/Tracking-Algorithm)
+Collaborative research analyzing precipitation system dynamics and radar reflectivity patterns to improve understanding of rainfall-driven hazards in burned landscapes.
+(With coauthors)  
+ [Repository](https://github.com/silvanacg/Tracking-Algorithm) - [Journal Article](https://rmets.onlinelibrary.wiley.com/doi/10.1002/met.70219)
 
 ### Predicting Debris Flows with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire debris flows.  
@@ -120,9 +120,8 @@ AGU Fall Meeting 2023, San Francisco, California, USA — Dec 11–15, 2023.
 
 ### Journal Articles
 
-**Castillo, S., Jones, C., & Carvalho, L. (2025).**  
-*Structural Properties and Reflectivity Patterns of Precipitation Systems Linked to Post-Fire Debris Flows in California.*  
-Manuscript under review, **Meteorological Applications**.
+**Castillo-Guerra, S., C. Jones, and L. M. V. Carvalho.** 2026. “ Structural Properties and Reflectivity Patterns of Precipitation Systems Linked to Post-Fire Debris Flows in California.” Meteorological Applications 33, no. 4: e70219. [https://doi.org/10.1002/met.70219](https://doi.org/10.1002/met.70219)
+
 
 ---
 
