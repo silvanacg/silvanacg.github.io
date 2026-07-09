@@ -7,7 +7,7 @@ author_profile: true
 ### Storm Structure and Radar Reflectivity in Hazardous Rainfall Events
 Collaborative research analyzing precipitation system dynamics and radar reflectivity patterns to improve understanding of rainfall-driven hazards in burned landscapes.
 (With coauthors)  
-[Read more](/projects/storm-structure/) — [Repository](https://github.com/silvanacg/Tracking-Algorithm) - [Journal Article](https://rmets.onlinelibrary.wiley.com/doi/10.1002/met.70219)
+[Read more](/projects/storm-structure/) — [Repository](https://github.com/silvanacg/Tracking-Algorithm) - [Journal Article] (https://rmets.onlinelibrary.wiley.com/doi/10.1002/met.70219)
 
 ### Predicting Post-fire Hydrological Responses with Random Forest
 Collaborative research developing a Random Forest model combining atmospheric conditions and terrain susceptibility to predict post-fire hydrological responses.
