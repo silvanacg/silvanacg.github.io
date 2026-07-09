@@ -28,7 +28,7 @@ I studied Geology at EAFIT University in Colombia, where I became fascinated by 
   </figcaption>
 </figure>
 
-As a Ph.D. candidate in Geography at UC Santa Barbara specialized in Climate Science and Climate Change, my research focused on post-fire debris flows in California and the rainfall conditions that trigger them. I worked with datasets ranging from rain gauges and radar to reanalysis and climate projections, generating insights that support hazard monitoring and early warning in a changing climate.
+During my Ph.D. at UC Santa Barbara, my research focused on post-fire debris flows in California and the rainfall conditions that trigger them. I worked with datasets ranging from rain gauges and radar to reanalysis and climate projections, generating insights that support hazard monitoring and early warning in a changing climate.
 
 <figure style="margin: 1.5rem 0 1.25rem;">
   <img src="/assets/IMG_2473.JPG" alt="Fieldwork"
